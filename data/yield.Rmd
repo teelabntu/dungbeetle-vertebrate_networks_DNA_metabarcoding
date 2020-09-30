@@ -49,6 +49,14 @@ yield_Onthophagus <- yield %>% filter(Species == "Onthophagus_babirussa")
 
 ### Plot data
 ```{r plot}
+yield %>% ggplot()+
+  geom_boxplot(aes(x=TimePt, y=DNAYield, fill=Storage))+
+  facet_wrap(~Extraction)+
+  xlab("Time Point")+
+  ylab(expression(paste("DNA Yield (", mu, "g)"))) +
+  ggtitle("All Species")+
+  theme_bw()
+
 yield_Catharsius %>% ggplot()+
   geom_boxplot(aes(x=TimePt, y=DNAYield, fill=Storage))+
   xlab("Time Point")+
@@ -73,6 +81,17 @@ yield_Onthophagus %>% ggplot()+
 ```
 
 ### Linear models
+
+#### All species models
+
+```{r combined_lm}
+m1 <- lm(DNAYield~TimePt + Storage + Extraction, data=yield)
+m2 <- lm(DNAYield~TimePt * Storage + Extraction, data=yield)
+anova(m1,m2)
+m3 <- lm(DNAYield~TimePt + Storage + Extraction + TimePt:Storage + TimePt:Extraction, data=yield)
+anova(m2, m3)
+anova(m3)
+```
 
 #### *Catharsius molossus* models
 
@@ -108,15 +127,3 @@ anova(onthophagus_m1, onthophagus_m3)
 
 anova(onthophagus_m3)
 ```
-
-#### All species models
-
-```{r combined_lm}
-m1 <- lm(DNAYield~TimePt + Storage + Extraction, data=yield)
-m2 <- lm(DNAYield~TimePt * Storage + Extraction, data=yield)
-anova(m1,m2)
-m3 <- lm(DNAYield~TimePt + Storage + Extraction + TimePt:Storage + TimePt:Extraction, data=yield)
-anova(m2, m3)
-anova(m3)
-```
-

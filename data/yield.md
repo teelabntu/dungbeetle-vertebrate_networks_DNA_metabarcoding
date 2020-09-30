@@ -60,6 +60,18 @@ yield_Onthophagus <- yield %>% filter(Species == "Onthophagus_babirussa")
 ### Plot data
 
 ``` r
+yield %>% ggplot()+
+  geom_boxplot(aes(x=TimePt, y=DNAYield, fill=Storage))+
+  facet_wrap(~Extraction)+
+  xlab("Time Point")+
+  ylab(expression(paste("DNA Yield (", mu, "g)"))) +
+  ggtitle("All Species")+
+  theme_bw()
+```
+
+![](yield_files/figure-gfm/plot-1.png)<!-- -->
+
+``` r
 yield_Catharsius %>% ggplot()+
   geom_boxplot(aes(x=TimePt, y=DNAYield, fill=Storage))+
   xlab("Time Point")+
@@ -68,7 +80,7 @@ yield_Catharsius %>% ggplot()+
   theme_classic()
 ```
 
-![](yield_files/figure-gfm/plot-1.png)<!-- -->
+![](yield_files/figure-gfm/plot-2.png)<!-- -->
 
 ``` r
 yield_Paragymnopleurus %>% ggplot()+
@@ -79,7 +91,7 @@ yield_Paragymnopleurus %>% ggplot()+
   theme_classic()
 ```
 
-![](yield_files/figure-gfm/plot-2.png)<!-- -->
+![](yield_files/figure-gfm/plot-3.png)<!-- -->
 
 ``` r
 yield_Onthophagus %>% ggplot()+
@@ -91,9 +103,59 @@ yield_Onthophagus %>% ggplot()+
   theme_bw()
 ```
 
-![](yield_files/figure-gfm/plot-3.png)<!-- -->
+![](yield_files/figure-gfm/plot-4.png)<!-- -->
 
 ### Linear models
+
+#### All species models
+
+``` r
+m1 <- lm(DNAYield~TimePt + Storage + Extraction, data=yield)
+m2 <- lm(DNAYield~TimePt * Storage + Extraction, data=yield)
+anova(m1,m2)
+```
+
+    ## Analysis of Variance Table
+    ## 
+    ## Model 1: DNAYield ~ TimePt + Storage + Extraction
+    ## Model 2: DNAYield ~ TimePt * Storage + Extraction
+    ##   Res.Df   RSS Df Sum of Sq      F    Pr(>F)    
+    ## 1   1270 26557                                  
+    ## 2   1263 25115  7    1442.4 10.363 1.081e-12 ***
+    ## ---
+    ## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+``` r
+m3 <- lm(DNAYield~TimePt + Storage + Extraction + TimePt:Storage + TimePt:Extraction, data=yield)
+anova(m2, m3)
+```
+
+    ## Analysis of Variance Table
+    ## 
+    ## Model 1: DNAYield ~ TimePt * Storage + Extraction
+    ## Model 2: DNAYield ~ TimePt + Storage + Extraction + TimePt:Storage + TimePt:Extraction
+    ##   Res.Df   RSS Df Sum of Sq      F    Pr(>F)    
+    ## 1   1263 25115                                  
+    ## 2   1256 22924  7    2190.4 17.144 < 2.2e-16 ***
+    ## ---
+    ## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+``` r
+anova(m3)
+```
+
+    ## Analysis of Variance Table
+    ## 
+    ## Response: DNAYield
+    ##                     Df Sum Sq Mean Sq  F value    Pr(>F)    
+    ## TimePt               7 327604   46801 2564.158 < 2.2e-16 ***
+    ## Storage              1   2332    2332  127.746 < 2.2e-16 ***
+    ## Extraction           1   1750    1750   95.882 < 2.2e-16 ***
+    ## TimePt:Storage       7   1442     206   11.290 6.193e-14 ***
+    ## TimePt:Extraction    7   2190     313   17.144 < 2.2e-16 ***
+    ## Residuals         1256  22924      18                       
+    ## ---
+    ## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
 
 #### *Catharsius molossus* models
 
@@ -203,55 +265,5 @@ anova(onthophagus_m3)
     ## Storage          1   1386  1386.1  241.710 < 2.2e-16 ***
     ## TimePt:Storage   7   1000   142.9   24.913 < 2.2e-16 ***
     ## Residuals      624   3578     5.7                       
-    ## ---
-    ## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
-
-#### All species models
-
-``` r
-m1 <- lm(DNAYield~TimePt + Storage + Extraction, data=yield)
-m2 <- lm(DNAYield~TimePt * Storage + Extraction, data=yield)
-anova(m1,m2)
-```
-
-    ## Analysis of Variance Table
-    ## 
-    ## Model 1: DNAYield ~ TimePt + Storage + Extraction
-    ## Model 2: DNAYield ~ TimePt * Storage + Extraction
-    ##   Res.Df   RSS Df Sum of Sq      F    Pr(>F)    
-    ## 1   1270 26557                                  
-    ## 2   1263 25115  7    1442.4 10.363 1.081e-12 ***
-    ## ---
-    ## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
-
-``` r
-m3 <- lm(DNAYield~TimePt + Storage + Extraction + TimePt:Storage + TimePt:Extraction, data=yield)
-anova(m2, m3)
-```
-
-    ## Analysis of Variance Table
-    ## 
-    ## Model 1: DNAYield ~ TimePt * Storage + Extraction
-    ## Model 2: DNAYield ~ TimePt + Storage + Extraction + TimePt:Storage + TimePt:Extraction
-    ##   Res.Df   RSS Df Sum of Sq      F    Pr(>F)    
-    ## 1   1263 25115                                  
-    ## 2   1256 22924  7    2190.4 17.144 < 2.2e-16 ***
-    ## ---
-    ## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
-
-``` r
-anova(m3)
-```
-
-    ## Analysis of Variance Table
-    ## 
-    ## Response: DNAYield
-    ##                     Df Sum Sq Mean Sq  F value    Pr(>F)    
-    ## TimePt               7 327604   46801 2564.158 < 2.2e-16 ***
-    ## Storage              1   2332    2332  127.746 < 2.2e-16 ***
-    ## Extraction           1   1750    1750   95.882 < 2.2e-16 ***
-    ## TimePt:Storage       7   1442     206   11.290 6.193e-14 ***
-    ## TimePt:Extraction    7   2190     313   17.144 < 2.2e-16 ***
-    ## Residuals         1256  22924      18                       
     ## ---
     ## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
