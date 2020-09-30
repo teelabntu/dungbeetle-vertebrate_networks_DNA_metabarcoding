@@ -1,24 +1,54 @@
-######## still work in progress ########
+---
+title: "Plots and analyses for dummy DNA yield dataset"
+author: "Xin Rui"
+output: github_document
+---
 
-# load libraries
+```{r setup, include=FALSE}
+  knitr::opts_chunk$set(message = FALSE, warning = FALSE, tidy = FALSE)
+```
+
+```{r wrap-hook, include=FALSE}
+library(knitr)
+hook_output = knit_hooks$get('output')
+knit_hooks$set(output = function(x, options) {
+  # this hook is used only when the linewidth option is not NULL
+  if (!is.null(n <- options$linewidth)) {
+    x = knitr:::split_lines(x)
+    # any lines wider than n should be wrapped
+    if (any(nchar(x) > n)) x = strwrap(x, width = n)
+    x = paste(x, collapse = '\n')
+  }
+  hook_output(x, options)
+})
+```
+
+### Packages to install and load
+
+```{r packages}
 library(ggplot2) ## for plotting
 library(dplyr) ## for data manipulation
+```
 
-# read data
-yield <- read.csv("data/DNA yield_cleaned.csv", header=T)
+### Load and check data
+
+```{r load}
+yield <- read.csv("DNA yield_cleaned.csv", header=T)
 colnames(yield)[1] <-"SpecimenID" ## rename first column header
 names(yield) ## check all column headers
 str(yield) ## check data frame
 yield$TimePt <- as.factor(yield$TimePt) # change TimePt to factor
 str(yield) ## check again
-
-# filter data by species
+```
+### Filter data by species
+```{r filter}
 yield_Catharsius <- yield %>% filter(Species == "Catharsius_molossus")
 yield_Paragymnopleurus <- yield %>% filter(Species == "Paragymnopleurus_maurus")
 yield_Onthophagus <- yield %>% filter(Species == "Onthophagus_babirussa")
+```
 
-# plot data
-
+### Plot data
+```{r plot}
 yield_Catharsius %>% ggplot()+
   geom_boxplot(aes(x=TimePt, y=DNAYield, fill=Storage))+
   xlab("Time Point")+
@@ -40,24 +70,34 @@ yield_Onthophagus %>% ggplot()+
   ylab(expression(paste("DNA Yield (", mu, "g)"))) +
   ggtitle(expression(paste(italic("Onthophagus babirussa"))))+
   theme_bw()
+```
 
-# linear models
-## Catharsius models
+### Linear models
+
+#### *Catharsius molossus* models
+
+```{r catharsius_lm}
 catharsius_m1<-lm(DNAYield~TimePt+Storage, data=yield_Catharsius)
 catharsius_m2<-lm(DNAYield~TimePt*Storage, data=yield_Catharsius)
 anova(catharsius_m1,catharsius_m2)
 
 anova(catharsius_m2)
+```
 
-## Paragymnopleurus models
+#### *Paragymnopleurus maurus* models
+
+```{r paragymnopleurus_lm}
 paragymnopleurus_m1<-lm(DNAYield~TimePt+Extraction, data=yield_Paragymnopleurus)
 paragymnopleurus_m2<-lm(DNAYield~TimePt*Extraction, data=yield_Paragymnopleurus)
 
 anova(paragymnopleurus_m1, paragymnopleurus_m2)
 
 anova(paragymnopleurus_m1)
+```
 
-## Onthophagus models
+#### *Onthophagus babirussa* models
+
+```{r onthophagus_lm}
 onthophagus_m1<-lm(DNAYield~TimePt+Storage, data=yield_Onthophagus)
 onthophagus_m2<-lm(DNAYield~TimePt+Storage+Extraction, data=yield_Onthophagus)
 
@@ -67,19 +107,16 @@ onthophagus_m3<-lm(DNAYield~TimePt*Storage, data=yield_Onthophagus)
 anova(onthophagus_m1, onthophagus_m3)
 
 anova(onthophagus_m3)
+```
 
-## all combined
+#### All species models
+
+```{r combined_lm}
 m1 <- lm(DNAYield~TimePt + Storage + Extraction, data=yield)
 m2 <- lm(DNAYield~TimePt * Storage + Extraction, data=yield)
 anova(m1,m2)
 m3 <- lm(DNAYield~TimePt + Storage + Extraction + TimePt:Storage + TimePt:Extraction, data=yield)
 anova(m2, m3)
 anova(m3)
+```
 
-m1 <- lm(DNAYield~TimePt + Storage, data=yield)
-m2 <- lm(DNAYield~TimePt * Storage, data=yield)
-anova(m1,m2)
-
-# interaction.plot(x.factor=yield$TimePt, trace.factor=yield$Storage, response=yield$DNAYield)
-# interaction.plot(x.factor=yield$TimePt, trace.factor=yield$Extraction, response=yield$DNAYield)
-# interaction.plot(x.factor=yield$Storage, trace.factor=yield$Extraction, response=yield$DNAYield)
