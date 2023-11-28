@@ -1,0 +1,181 @@
+﻿id,species,gut,colour,qubit
+M001,Onthophagus trituber,Partially full,Unknown,36.4
+M002,Onthophagus deliensis,Empty (with specks),Unknown,48
+M003,Onthophagus deliensis,Empty,Unknown,12
+M004,Onthophagus trituber,Empty,Unknown,20
+M005,Onthophagus crassicollis,Empty,Unknown,48.8
+M006,Onthophagus crassicollis,Partially full,Unknown,19
+M007,Onthophagus crassicollis,Empty,Unknown,26
+M008,Onthophagus trituber,Empty,Unknown,10.1
+M009,Onthophagus deliensis,Empty,Unknown,41.2
+M010,Onthophagus trituber,Empty,Unknown,33.6
+M011,Onthophagus crassicollis,Empty,Unknown,16
+M012,Onthophagus crassicollis,Empty,Unknown,55.8
+M013,Onthophagus crassicollis,Empty,Unknown,37.4
+M014,Onthophagus trituber,Partially full,Unknown,8.7
+M015,Onthophagus trituber,Partially full,Unknown,17
+M016,Onthophagus waterstradti,Partially full,Unknown,62.8
+M017,Onthophagus deliensis,Partially full,Unknown,10.9
+M018,Onthophagus deliensis,Empty,Unknown,5.46
+M019,Onthophagus waterstradti,Full,Unknown,54
+M020,Onthophagus rutilans,Partially full,Unknown,57.8
+M021,Onthophagus rutilans,Partially full,Unknown,56
+M022,Onthophagus rutilans,Empty (with specks),Unknown,25.6
+M023,Onthophagus rutilans,Partially full,Unknown,54.8
+M024,Onthophagus rutilans,Partially full,Unknown,81.2
+M025,Onthophagus rutilans,Partially full,Unknown,85.4
+M026,Onthophagus rutilans,Partially full,Unknown,33
+M027,Onthophagus rutilans,Empty,Unknown,69.4
+M028,Onthophagus babirussa,Partially full,Unknown,27
+M029,Onthophagus babirussa,Full,Unknown,35
+M030,Onthophagus waterstradti,Empty,Unknown,51
+M031,Onthophagus deliensis,Partially full,Unknown,5.8
+M032,Onthophagus deliensis,Partially full,Unknown,14.5
+M033,Onthophagus deliensis,Partially full,Unknown,20.4
+M034,Onthophagus deliensis,Partially full,Unknown,26.4
+M035,Onthophagus deliensis,Partially full,Unknown,16.1
+M036,Onthophagus trituber,Empty,Unknown,14
+M037,Onthophagus deliensis,Partially full,Unknown,12.2
+M038,Onthophagus waterstradti,Empty,Unknown,56
+M039,Onthophagus rutilans,Empty (with specks),Unknown,91
+M040,Onthophagus waterstradti,Full,Unknown,62.6
+M041,Onthophagus waterstradti,Empty,Unknown,72.2
+M042,Onthophagus crassicollis,Partially full,Unknown,11.1
+M043,Onthophagus deliensis,Partially full,Unknown,15.5
+M044,Onthophagus rutilans,Full,Unknown,58.8
+M045,Onthophagus waterstradti,Empty,Unknown,57.6
+M046,Onthophagus waterstradti,Empty,NA,47.6
+M047,Onthophagus waterstradti,Partially full,White,71.2
+M048,Onthophagus rutilans,Full,Brown,114
+M049,Onthophagus waterstradti,Partially full,White,82.2
+M050,Onthophagus waterstradti,Full,Brown,84.4
+M051,Onthophagus waterstradti,Empty,NA,22.2
+M052,Onthophagus waterstradti,Full,Brown,55.2
+M053,Onthophagus waterstradti,Full,Brown,34.8
+M054,Onthophagus waterstradti,Partially full,Brown,73.8
+M055,Onthophagus waterstradti,Partially full,Brown & White,18
+M056,Onthophagus deliensis,Partially full,Brown,34.4
+M057,Onthophagus rutilans,Empty,NA,90.4
+M058,Onthophagus waterstradti,Full,Brown,17.8
+M059,Onthophagus deliensis,Partially full,White,11.1
+M060,Onthophagus deliensis,Partially full,White,33.6
+M061,Onthophagus deliensis,Partially full,White,28.8
+M062,Onthophagus deliensis,Empty,NA,37.6
+M063,Onthophagus deliensis,Partially full,Brown & White,17.4
+M064,Onthophagus deliensis,Partially full,White,23.6
+M065,Onthophagus rutilans,Partially full,Brown,51.4
+M066,Onthophagus waterstradti,Partially full,Brown,47.4
+M067,Onthophagus waterstradti,Full,Brown,4.9
+M068,Onthophagus waterstradti,Empty,NA,62.6
+M069,Onthophagus pedator,Partially full,Brown,61
+M070,Onthophagus pedator,Full,Brown,67.6
+M071,Onthophagus waterstradti,Full,Brown,64.6
+M072,Onthophagus deliensis,Partially full,Brown,25.8
+M073,Onthophagus deliensis,Empty,NA,32.8
+M074,Onthophagus waterstradti,Partially full,Brown & White,23
+M075,Onthophagus waterstradti,Empty,NA,42.6
+M076,Onthophagus waterstradti,Partially full,Brown,31.4
+M077,Onthophagus crassicollis,Full,Brown,31.6
+M078,Onthophagus rutilans,Empty,NA,108
+M079,Onthophagus deliensis,Empty,NA,37.2
+M080,Onthophagus deliensis,Partially full,White,17.2
+M081,Onthophagus deliensis,Empty,NA,13.4
+M082,Onthophagus deliensis,Empty,NA,26
+M083,Onthophagus waterstradti,Full,Brown,26.8
+M084,Onthophagus rutilans,Empty,NA,67.6
+M085,Onthophagus deliensis,Partially full,White,30
+M086,Onthophagus deliensis,Empty (with specks),White,12.9
+M087,Onthophagus deliensis,Partially full,White,18
+M088,Onthophagus rutilans,Partially full,Brown,72.4
+M089,Onthophagus waterstradti,Partially full,Brown,38.4
+M090,Onthophagus (Indacorius) sp.,Partially full,Brown,10.9
+M091,Onthophagus waterstradti,Partially full,White,13.5
+M092,Onthophagus deliensis,Partially full,White,45.6
+M093,Onthophagus rutilans,Partially full,Brown,45.2
+M094,Onthophagus waterstradti,Empty (with specks),Brown,70.2
+M095,Onthophagus waterstradti,Empty,NA,84
+M096,Onthophagus waterstradti,Partially full,Brown,33.4
+M097,Onthophagus waterstradti,Partially full,Brown,23.6
+M098,Onthophagus angustatus,Partially full,Brown & White,83.8
+M099,Onthophagus waterstradti,Full,Brown,91.2
+M100,Onthophagus cf. rutilans,Partially full,Brown & White,49.6
+M101,Onthophagus rutilans,Empty (with specks),Brown,79.6
+M102,Onthophagus aff. semicupreus,Empty,NA,37.6
+M103,Onthophagus waterstradti,Empty,NA,39.6
+M104,Onthophagus rutilans,Full,Brown,62.2
+M105,Onthophagus rutilans,Full,Brown,66.2
+M106,Onthophagus waterstradti,Empty,NA,43.4
+M107,Onthophagus waterstradti,Empty,NA,61
+M108,Onthophagus pedator,Partially full,Brown,26.4
+M109,Onthophagus waterstradti,Empty,NA,80.2
+M110,Onthophagus rutilans,Full,Brown,69.4
+M111,Onthophagus aff. semicupreus,Partially full,Brown,64.6
+M112,Onthophagus waterstradti,Empty,NA,62.6
+M113,Onthophagus deliensis,Empty,NA,56.4
+M114,Onthophagus rutilans,Partially full,Brown,88.2
+M115,Onthophagus waterstradti,Empty,NA,56.4
+M116,Onthophagus trituber,Partially full,Brown,82.2
+M117,Onthophagus babirussa,Partially full,Brown,90.8
+M118,Onthophagus trituber,Empty (with specks),White,62.2
+M119,Onthophagus babirussa,Empty,NA,110
+M120,Onthophagus deliensis,Partially full,White,23.4
+M121,Onthophagus deliensis,Partially full,White,19.5
+M122,Onthophagus deliensis,Partially full,Brown,44.8
+M123,Onthophagus deliensis,Empty,NA,48.8
+M124,Onthophagus rutilans,Full,Brown,120
+M125,Onthophagus rutilans,Empty,NA,116
+M126,Onthophagus waterstradti,Partially full,Brown & White,71.8
+M127,Onthophagus waterstradti,Partially full,Brown,61
+M128,Onthophagus rutilans,Empty,NA,120
+M129,Onthophagus waterstradti,Empty (with specks),White,89.2
+M130,Onthophagus rutilans,Partially full,Brown,89.4
+M131,Onthophagus waterstradti,Empty (with specks),Brown,65.2
+M132,Onthophagus trituber,Empty,NA,28.4
+M133,Onthophagus waterstradti,Partially full,White,70
+M134,Onthophagus trituber,Partially full,Brown,95.4
+M135,Onthophagus deliensis,Partially full,White,44.4
+M136,Onthophagus deliensis,Empty (with specks),White,17.5
+M137,Onthophagus deliensis,Partially full,White,28.6
+M138,Onthophagus deliensis,Partially full,White,58.2
+M139,Onthophagus deliensis,Empty (with specks),White,15.9
+M140,Onthophagus deliensis,Partially full,White,29
+M141,Onthophagus deliensis,Partially full,Brown & White,17.2
+M142,Onthophagus deliensis,Empty (with specks),Brown,18.2
+M143,Onthophagus deliensis,Partially full,White,27
+M144,Onthophagus deliensis,Empty (with specks),White,25
+M145,Onthophagus deliensis,Partially full,White,32.2
+M146,Onthophagus rutilans,Empty (with specks),White,75
+M147,Onthophagus rutilans,Empty (with specks),White,68
+M148,Onthophagus rutilans,Empty,NA,52.8
+M149,Onthophagus aff. semicupreus,Full,Brown,36.6
+M150,Onthophagus waterstradti,Empty (with specks),Brown,67.8
+M151,Onthophagus waterstradti,Full,Brown,73.6
+M152,Onthophagus waterstradti,Full,Brown,96.2
+M153,Onthophagus babirussa,Partially full,Brown,73.8
+M154,Onthophagus waterstradti,Partially full,Brown,54.6
+M155,Onthophagus rutilans,Empty,NA,104
+M156,Onthophagus rutilans,Partially full,Brown,76.4
+M157,Onthophagus rutilans,Empty (with specks),White,83.4
+M158,Onthophagus deliensis,Partially full,White,32.4
+M159,Onthophagus babirussa,Full,Brown,63.4
+M160,Onthophagus waterstradti,Partially full,Brown,59.4
+M161,Onthophagus deliensis,Partially full,White,51.4
+M162,Onthophagus waterstradti,Empty,NA,80
+M163,Onthophagus deliensis,Partially full,White,12.3
+M164,Onthophagus rutilans,Empty,NA,95
+M165,Onthophagus rutilans,Partially full,Brown,71.6
+M166,Onthophagus babirussa,Full,Brown,83.4
+M167,Onthophagus waterstradti,Partially full,Brown,71.4
+M168,Onthophagus deliensis,Empty (with specks),Brown,43.4
+M169,Onthophagus deliensis,Empty (with specks),White,23
+M170,Onthophagus deliensis,Empty (with specks),White,21.4
+M171,Onthophagus deliensis,Empty (with specks),Brown,57.6
+M172,Onthophagus deliensis,Partially full,Brown & White,21
+M173,Onthophagus deliensis,Empty (with specks),White,33.8
+M174,Onthophagus waterstradti,Partially full,Brown,58.8
+M175,Onthophagus waterstradti,Empty (with specks),White,74.4
+M176,Onthophagus deliensis,Empty (with specks),Brown,17.3
+M177,Onthophagus waterstradti,Empty (with specks),Brown,91.4
+M178,Onthophagus waterstradti,Partially full,Brown,79.4
+M179,Onthophagus deliensis,Empty (with specks),White,51.8
+M180,Onthophagus waterstradti,Empty,NA,78.8

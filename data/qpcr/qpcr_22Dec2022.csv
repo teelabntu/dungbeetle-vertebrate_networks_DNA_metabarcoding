@@ -1,0 +1,132 @@
+﻿sn,sample,set_time,set_time_n,gut,cq,Storage
+1,0m.1,0m,1,Full,24.4638,Ethanol + Freeze
+2,0m.2,0m,1,Full,24.29471,Ethanol + Freeze
+3,0m.3,0m,1,Full,26.25934,Ethanol + Freeze
+4,0m.4,0m,1,Full,24.5949,Ethanol + Freeze
+5,0m.5,0m,1,Full,24.07073,Ethanol + Freeze
+6,0m.6,0m,1,Empty (with specks),34.15644,Ethanol + Freeze
+7,0m.7,0m,1,Full,22.24882,Ethanol + Freeze
+8,0m.8,0m,1,Partially full,26.45732,Ethanol + Freeze
+10,0m.10,0m,1,Full,24.42852,Ethanol only
+11,0m.11,0m,1,Partially full,32.86008,Ethanol only
+12,0m.12,0m,1,Full,24.75366,Ethanol only
+13,0m.13,0m,1,Full,24.15216,Ethanol only
+14,0m.14,0m,1,Full,25.39933,Ethanol only
+15,0m.15,0m,1,Full,24.49881,Ethanol only
+16,0m.16,0m,1,Full,25.09968,Ethanol only
+17,0m.17,0m,1,Full,24.46912,Ethanol only
+18,0m.18,0m,1,Full,25.63103,Ethanol only
+19,30m.1,30m,2,Full,23.72708,Ethanol + Freeze
+20,30m.2,30m,2,Full,24.43669,Ethanol + Freeze
+21,30m.3,30m,2,Full,26.40128,Ethanol + Freeze
+22,30m.4,30m,2,Partially full,25.89382,Ethanol + Freeze
+23,30m.5,30m,2,Partially full,28.03244,Ethanol + Freeze
+24,30m.6,30m,2,Full,25.23819,Ethanol + Freeze
+25,30m.7,30m,2,Full,26.28819,Ethanol + Freeze
+26,30m.8,30m,2,Full,26.20299,Ethanol + Freeze
+27,30m.9,30m,2,Full,25.49834,Ethanol + Freeze
+28,30m.10,30m,2,Full,25.37395,Ethanol only
+29,30m.11,30m,2,Full,26.17549,Ethanol only
+30,30m.12,30m,2,Full,26.18928,Ethanol only
+31,30m.13,30m,2,Full,25.62474,Ethanol only
+32,30m.14,30m,2,Full,24.45632,Ethanol only
+33,30m.15,30m,2,Empty,31.00167,Ethanol only
+34,30m.16,30m,2,Full,25.04805,Ethanol only
+35,30m.17,30m,2,Full,25.72095,Ethanol only
+36,30m.18,30m,2,Full,24.50226,Ethanol only
+37,1h.1,1h,3,Partially full,28.23565,Ethanol + Freeze
+38,1h.2,1h,3,Full,23.64292,Ethanol + Freeze
+39,1h.3,1h,3,Full,24.43569,Ethanol + Freeze
+40,1h.4,1h,3,Full,20.39543,Ethanol + Freeze
+41,1h.5,1h,3,Full,24.03139,Ethanol + Freeze
+42,1h.6,1h,3,Partially full,28.83025,Ethanol + Freeze
+43,1h.7,1h,3,Full,24.37106,Ethanol + Freeze
+44,1h.8,1h,3,Full,21.4464,Ethanol + Freeze
+45,1h.9,1h,3,Full,21.35413,Ethanol + Freeze
+46,1h.10,1h,3,Full,26.4302,Ethanol only
+47,1h.11,1h,3,Partially full,35.54163,Ethanol only
+48,1h.12,1h,3,Full,26.59938,Ethanol only
+49,1h.13,1h,3,Full,26.10661,Ethanol only
+50,1h.14,1h,3,Full,28.29531,Ethanol only
+51,1h.15,1h,3,Partially full,26.31923,Ethanol only
+52,1h.16,1h,3,Partially full,25.87279,Ethanol only
+53,1h.17,1h,3,Full,23.63366,Ethanol only
+54,1h.18,1h,3,Full,25.66314,Ethanol only
+55,2h.1,2h,4,Empty (with specks),27.66534,Ethanol + Freeze
+57,2h.3,2h,4,Full,23.94215,Ethanol + Freeze
+58,2h.4,2h,4,Full,22.61079,Ethanol + Freeze
+59,2h.5,2h,4,Full,22.28233,Ethanol + Freeze
+60,2h.6,2h,4,Full,22.30032,Ethanol + Freeze
+61,2h.7,2h,4,Partially full,24.87892,Ethanol + Freeze
+62,2h.8,2h,4,Full,25.01142,Ethanol + Freeze
+63,2h.9,2h,4,Full,24.94388,Ethanol + Freeze
+64,2h.10,2h,4,Full,25.20753,Ethanol only
+65,2h.11,2h,4,Full,25.38534,Ethanol only
+66,2h.12,2h,4,Full,25.75542,Ethanol only
+67,2h.13,2h,4,Partially full,21.44356,Ethanol only
+68,2h.14,2h,4,Full,26.15769,Ethanol only
+69,2h.15,2h,4,Full,24.10054,Ethanol only
+70,2h.16,2h,4,Full,24.71295,Ethanol only
+71,2h.17,2h,4,Full,25.08604,Ethanol only
+72,2h.18,2h,4,Full,24.57359,Ethanol only
+73,3h.1,3h,5,Partially full,27.11725,Ethanol + Freeze
+75,3h.3,3h,5,Full,23.3417,Ethanol + Freeze
+76,3h.4,3h,5,Partially full,26.40032,Ethanol + Freeze
+78,3h.6,3h,5,Empty,23.55805,Ethanol + Freeze
+79,3h.7,3h,5,Empty (with specks),30.68866,Ethanol + Freeze
+80,3h.8,3h,5,Empty (with specks),26.21583,Ethanol + Freeze
+81,3h.9,3h,5,Empty,35.34314,Ethanol + Freeze
+82,3h.10,3h,5,Partially full,24.99421,Ethanol only
+83,3h.11,3h,5,Empty,35.97137,Ethanol only
+84,3h.12,3h,5,Full,25.53422,Ethanol only
+85,3h.13,3h,5,Partially full,25.51234,Ethanol only
+87,3h.15,3h,5,Empty,34.17953,Ethanol only
+88,3h.16,3h,5,Empty,33.04873,Ethanol only
+90,3h.18,3h,5,Partially full,25.16177,Ethanol only
+91,6h.1,6h,6,Full,23.93077,Ethanol + Freeze
+92,6h.2,6h,6,Empty (with specks),24.30396,Ethanol + Freeze
+93,6h.3,6h,6,Partially full,31.57711,Ethanol + Freeze
+94,6h.4,6h,6,Partially full,31.10803,Ethanol + Freeze
+95,6h.5,6h,6,Partially full,26.50275,Ethanol + Freeze
+96,6h.6,6h,6,Empty (with specks),31.78932,Ethanol + Freeze
+97,6h.7,6h,6,Full,21.33219,Ethanol + Freeze
+98,6h.8,6h,6,Empty (with specks),33.2868,Ethanol + Freeze
+99,6h.9,6h,6,Empty (with specks),23.14792,Ethanol + Freeze
+100,6h.10,6h,6,Empty,34.3559,Ethanol only
+101,6h.11,6h,6,Empty,31.68301,Ethanol only
+102,6h.12,6h,6,Partially full,25.6411,Ethanol only
+104,6h.14,6h,6,Empty,33.02929,Ethanol only
+105,6h.15,6h,6,Partially full,25.51444,Ethanol only
+106,6h.16,6h,6,Empty,32.55709,Ethanol only
+107,6h.17,6h,6,Empty,35.7072,Ethanol only
+108,6h.18,6h,6,Full,23.64499,Ethanol only
+109,10h.1,10h,7,Empty,34.27364,Ethanol + Freeze
+110,10h.2,10h,7,Partially full,27.74857,Ethanol + Freeze
+111,10h.3,10h,7,Empty (with specks),33.07863,Ethanol + Freeze
+112,10h.4,10h,7,Partially full,21.04887,Ethanol + Freeze
+115,10h.7,10h,7,Empty,32.6279,Ethanol + Freeze
+116,10h.8,10h,7,Partially full,30.56927,Ethanol + Freeze
+117,10h.9,10h,7,Full,23.2028,Ethanol + Freeze
+118,10h.10,10h,7,Partially full,24.66647,Ethanol only
+119,10h.11,10h,7,Empty,35.125,Ethanol only
+120,10h.12,10h,7,Partially full,25.75437,Ethanol only
+121,10h.13,10h,7,Partially full,30.06759,Ethanol only
+122,10h.14,10h,7,Partially full,31.44763,Ethanol only
+124,10h.16,10h,7,Full,25.07916,Ethanol only
+125,10h.17,10h,7,Empty,33.91296,Ethanol only
+126,10h.18,10h,7,Partially full,23.51631,Ethanol only
+128,24h.2,24h,8,Empty,40.02765,Ethanol + Freeze
+129,24h.3,24h,8,Empty,35.46415,Ethanol + Freeze
+131,24h.5,24h,8,Full,22.24482,Ethanol + Freeze
+132,24h.6,24h,8,Empty,31.26095,Ethanol + Freeze
+133,24h.7,24h,8,Empty,31.27852,Ethanol + Freeze
+134,24h.8,24h,8,Empty,22.70177,Ethanol + Freeze
+135,24h.9,24h,8,Partially full,31.34245,Ethanol + Freeze
+136,24h.10,24h,8,Empty (with specks),31.03456,Ethanol + Freeze
+137,24h.11,24h,8,Full,25.28398,Ethanol + Freeze
+138,24h.12,24h,8,Empty,33.08758,Ethanol only
+143,24h.17,24h,8,Empty,33.65367,Ethanol only
+144,24h.18,24h,8,Full,25.45606,Ethanol only
+145,24h.19,24h,8,Partially full,26.73158,Ethanol only
+146,24h.20,24h,8,Empty (with specks),31.05588,Ethanol only
+147,24h.21,24h,8,Empty,37.42673,Ethanol only

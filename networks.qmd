@@ -1,0 +1,89 @@
+---
+title: "Dung Beetle Interaction Networks"
+format:
+  html:
+    code-fold: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(message = FALSE, warning = FALSE)
+```
+
+## Code
+
+```{r code}
+# Setup
+library(r2d3)
+library(reshape2)
+library(bipartite)
+library(tidyverse)
+library(RColorBrewer)
+library(bipartiteD3)
+
+# Read data
+ground <- read.csv('data/metabarcoding/networks/ground.csv',
+                   header = T)
+canopy <- read.csv('data/metabarcoding/networks/canopy.csv',
+                   header = T)
+
+# Remove empty rows
+ground <- ground %>% filter(Ground != 0)
+
+# Settings for ground network
+SortGround <- c('Catharsius renaudpauliani',
+              'Onthophagus waterstradti',
+              'Onthophagus rutilans',
+              'Paragymnopleurus maurus',
+              'Onthophagus aff. semicupreus',
+              'Onthophagus babirussa',
+              'Onthophagus crassicollis',
+              'Onthophagus pedator',
+              "Onthophagus cf. rutilans")
+
+ColourGround <- c('Catharsius renaudpauliani' = "#F9A242FF",
+             'Onthophagus waterstradti' = "#addc30",
+             'Onthophagus rutilans' = "#5ec962",
+             'Paragymnopleurus maurus' = "#28ae80",
+             'Onthophagus aff. semicupreus' = "#21918c",
+             'Onthophagus babirussa' = "#2c728e",
+             'Onthophagus crassicollis' = "#3b528b",
+             'Onthophagus pedator' = "#472d7b",
+             'Onthophagus cf. rutilans' = "#440154")
+
+# Settings for canopy network
+SortCanopy <- c('Onthophagus deliensis',
+                'Onthophagus waterstradti',
+                'Onthophagus crassicollis',
+                'Onthophagus trituber')
+
+ColourCanopy <- c('Onthophagus deliensis' = "#F9A242FF",
+                  'Onthophagus waterstradti' = "#35b779",
+                  'Onthophagus crassicollis' = "#31688e",
+                  'Onthophagus trituber' = "#440154")
+```
+
+## Ground Network
+```{r ground}
+#| out-width: 100%
+
+# Plot networks
+bipartite_D3(ground,
+             colouroption = 'manual',
+             PrimaryLab = 'Dung Beetle Species',
+             SecondaryLab = 'Detected Vertebrate Species',
+             NamedColourVector = ColourGround,
+             ColourBy = 1, SortPrimary=SortGround,
+             Pad = 1)
+```
+
+## Canopy Network
+```{r canopy}
+# Plot networks
+bipartite_D3(canopy,
+             colouroption = 'manual',
+             PrimaryLab = 'Dung Beetle Species',
+             SecondaryLab = 'Detected Vertebrate Species',
+             NamedColourVector = ColourCanopy,
+             ColourBy = 1, SortPrimary=SortCanopy,
+             Pad = 1)
+```
