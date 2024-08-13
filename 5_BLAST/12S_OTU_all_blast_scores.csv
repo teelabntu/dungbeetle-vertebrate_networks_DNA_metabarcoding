@@ -1,0 +1,390 @@
+"","qseid","sseqid","sscinames","sskingdoms","pident","length","mismatch","qstart","qend","sstart","ssend","evalue","bitscore","score"
+"1","OTU_1","gi|2667407009|gb|PP263591.1|","Homo sapiens","Eukaryota",100,100,0,1,100,1100,1199,1.22e-42,185,100
+"2","OTU_1001","gi|400278346|dbj|AB719250.1|","Leptobrachium nigrops","Eukaryota",100,93,0,1,93,419,511,8.46e-39,172,93
+"3","OTU_1027","gi|1851762058|gb|MT231329.1|","Callosciurus notatus","Eukaryota",100,97,0,2,98,664,760,5.57e-41,180,97
+"4","OTU_104","gi|1102318216|gb|KX929906.1|","Mallotus villosus","Eukaryota",100,99,0,1,99,134,232,4.31e-42,183,99
+"5","OTU_1042","gi|2672402823|emb|OZ012707.1|","Cylloceria caligata","Eukaryota",97.701,87,1,1,86,8860049,8859963,1.3e-31,148,80
+"6","OTU_1042","gi|2519850269|emb|OX596278.1|","Harpalus rufipes","Eukaryota",97.701,87,1,1,86,20139292,20139378,1.3e-31,148,80
+"7","OTU_1042","gi|2211222234|emb|OW121795.1|","Leistus spinibarbis","Eukaryota",97.701,87,1,1,86,1647582,1647496,1.3e-31,148,80
+"8","OTU_1049","gi|2040332916|emb|OU015617.1|","Zeuzera pyrina","Eukaryota",97.087,103,3,1,103,800369,800471,2.75e-39,174,94
+"9","OTU_1059","gi|2667407009|gb|PP263591.1|","Homo sapiens","Eukaryota",99,100,0,1,99,1100,1199,2e-40,178,96
+"10","OTU_1061","gi|2452980451|emb|OX439456.1|","Scotopteryx bipunctaria","Eukaryota",94.545,110,4,1,108,8931720,8931829,1.39e-37,169,91
+"11","OTU_1063","gi|2634424567|gb|CP139526.1|","Homo sapiens","Eukaryota",94.898,98,5,1,98,19392922,19393019,3.43e-33,154,83
+"12","OTU_1077","gi|2634424567|gb|CP139526.1|","Homo sapiens","Eukaryota",100,99,0,1,99,19392922,19393020,4.37e-42,183,99
+"13","OTU_11","gi|1777419446|gb|MN255618.1|","Oreochromis niloticus","Eukaryota",96.907,97,3,1,97,442,538,5.61e-36,163,88
+"14","OTU_11","gi|1789849575|gb|MK951678.1|","Oreochromis tanganicae","Eukaryota",96.907,97,3,1,97,511,607,5.61e-36,163,88
+"15","OTU_1117","gi|1279714641|ref|XM_023046012.1|","Onthophagus taurus","Eukaryota",98.824,85,1,1,85,1175,1259,9.71e-33,152,82
+"16","OTU_1123","gi|21326080|gb|AF502344.1|","Macaca mulatta","Eukaryota",100,99,0,1,99,3,101,4.31e-42,183,99
+"17","OTU_1123","gi|2309482220|ref|XR_007726452.1|","Macaca thibetana thibetana","Eukaryota",100,99,0,1,99,6444,6542,4.31e-42,183,99
+"18","OTU_1128","gi|163955263|gb|AC202616.8|","Macaca mulatta","Eukaryota",100,106,0,1,106,69304,69199,6.13e-46,196,106
+"19","OTU_113","gi|295808886|emb|FN673842.1|","Homo sapiens","Eukaryota",99,100,1,1,100,183,84,5.66e-41,180,97
+"20","OTU_113","gi|1743195474|ref|XR_004027927.1|","Nomascus leucogenys","Eukaryota",99,100,1,1,100,105,204,5.66e-41,180,97
+"21","OTU_1153","gi|2560331525|emb|OY720427.1|","Melanotus villosus","Eukaryota",87.156,109,8,3,105,19765662,19765554,1.35e-22,119,64
+"22","OTU_1155","gi|2560373887|emb|OY720460.1|","Harpalus rubripes","Eukaryota",98.837,86,1,1,86,27950192,27950107,2.7e-33,154,83
+"23","OTU_1155","gi|2519850266|emb|OX596275.1|","Harpalus rufipes","Eukaryota",98.837,86,1,1,86,46823964,46823879,2.7e-33,154,83
+"24","OTU_1155","gi|2243462181|emb|OW964829.1|","Ophonus ardosiacus","Eukaryota",98.837,86,1,1,86,7391216,7391131,2.7e-33,154,83
+"25","OTU_119","gi|1993500643|gb|MW652803.1|","Barbatula barbatula","Eukaryota",100,99,0,1,99,439,537,4.31e-42,183,99
+"26","OTU_12","gi|1125802453|ref|NC_032363.1|","Butastur liventer","Eukaryota",94.175,103,4,1,103,533,633,9.96e-34,156,84
+"27","OTU_121","gi|12214278|emb|AL158819.14|","Homo sapiens","Eukaryota",100,100,0,1,100,4543,4444,1.22e-42,185,100
+"28","OTU_1215","gi|914338100|gb|AC270106.1|","Homo sapiens","Eukaryota",99,100,1,1,100,49529,49430,5.66e-41,180,97
+"29","OTU_123","gi|2481537422|dbj|LC537284.1|","Paradoxurus hermaphroditus","Eukaryota",99,100,1,1,100,9,108,5.66e-41,180,97
+"30","OTU_1252","gi|2621701673|emb|OY759226.1|","Aradus depressus","Eukaryota",91.765,85,6,1,84,2182317,2182401,4.91e-22,117,63
+"31","OTU_1273","gi|1279739641|ref|XM_023058910.1|","Onthophagus taurus","Eukaryota",93.269,104,7,1,104,1046,943,3.64e-33,154,83
+"32","OTU_128","gi|18093148|gb|AC012365.6|","Homo sapiens","Eukaryota",100,96,0,1,96,39851,39946,1.91e-40,178,96
+"33","OTU_1301","gi|2499298739|emb|OX467709.1|","Agelastica alni","Eukaryota",90.244,82,8,17,98,54617659,54617578,2.87e-19,108,58
+"34","OTU_1304","gi|1279715063|ref|XR_002706304.1|","Onthophagus taurus","Eukaryota",94.231,104,5,6,108,185,288,2.93e-34,158,85
+"35","OTU_1326","gi|1690489555|gb|MK280465.1|","Homo sapiens","Eukaryota",98,100,2,1,100,22,121,2.63e-39,174,94
+"36","OTU_1326","gi|1042266311|gb|KX211935.1|","Pan paniscus","Eukaryota",98,100,2,1,100,515,614,2.63e-39,174,94
+"37","OTU_1326","gi|2260361819|gb|OK184041.1|","Pan troglodytes","Eukaryota",98,100,2,1,100,1,100,2.63e-39,174,94
+"38","OTU_1326","gi|1043092257|gb|KU308533.1|","Pan troglodytes ellioti","Eukaryota",98,100,2,1,100,518,617,2.63e-39,174,94
+"39","OTU_1326","gi|1042266465|gb|KX211946.1|","Pan troglodytes schweinfurthii","Eukaryota",98,100,2,1,100,514,613,2.63e-39,174,94
+"40","OTU_1326","gi|1043092397|gb|KU308543.1|","Pan troglodytes troglodytes","Eukaryota",98,100,2,1,100,518,617,2.63e-39,174,94
+"41","OTU_1326","gi|1043092467|gb|KU308548.1|","Pan troglodytes verus","Eukaryota",98,100,2,1,100,516,615,2.63e-39,174,94
+"42","OTU_1326","gi|51127249|emb|AJ627524.1|","Pan troglodytes;Pan troglodytes schweinfurthii;Pan troglodytes troglodytes","Eukaryota",98,100,2,1,100,3,102,2.63e-39,174,94
+"43","OTU_1352","gi|2531936751|emb|OY253754.1|","Oxytorus armatus","Eukaryota",83.505,97,16,2,98,16853703,16853799,2.64e-14,91.6,49
+"44","OTU_1358","gi|1268891829|gb|MF893895.1|","Macaca fascicularis","Eukaryota",98.98,98,1,1,98,510,607,7.09e-40,176,95
+"45","OTU_1358","gi|1846470054|dbj|LC536645.1|","Macaca fascicularis aureus","Eukaryota",98.98,98,1,1,98,1036,1133,7.09e-40,176,95
+"46","OTU_1358","gi|34305179|gb|AY360267.1|","Macaca mulatta","Eukaryota",98.98,98,1,1,98,3,100,7.09e-40,176,95
+"47","OTU_1358","gi|1409484138|gb|MH538951.1|","Macaca radiata","Eukaryota",98.98,98,1,1,98,29,126,7.09e-40,176,95
+"48","OTU_137","gi|1476682358|gb|MH918135.1|","Squalius cephalus","Eukaryota",100,100,0,1,100,443,542,1.22e-42,185,100
+"49","OTU_1382","gi|1790166327|dbj|AP006779.1|","Aulichthys japonicus","Eukaryota",98.99,99,1,1,99,512,610,2e-40,178,96
+"50","OTU_1382","gi|1843471762|gb|MT484057.1|","Gasterosteus aculeatus","Eukaryota",98.99,99,1,1,99,3,101,2e-40,178,96
+"51","OTU_1382","gi|2442103830|dbj|LC753474.1|","Gasterosteus aculeatus aculeatus","Eukaryota",98.99,99,1,1,99,445,543,2e-40,178,96
+"52","OTU_1382","gi|1823804135|dbj|LC533126.1|","Gasterosteus aculeatus microcephalus","Eukaryota",98.99,99,1,1,99,433,531,2e-40,178,96
+"53","OTU_1382","gi|725542148|gb|KM273828.1|","Gasterosteus aculeatus williamsoni","Eukaryota",98.99,99,1,1,99,2,100,2e-40,178,96
+"54","OTU_1382","gi|1918447993|dbj|LC579395.1|","Gasterosteus nipponicus","Eukaryota",98.99,99,1,1,99,343,441,2e-40,178,96
+"55","OTU_1384","gi|2551487955|ref|XM_058373994.1|","Hemibagrus wyckioides","Eukaryota",91.111,90,8,1,90,1118,1207,9.81e-24,122,66
+"56","OTU_1393","gi|2397967406|emb|OX384548.1|","Neoitamus cyanurus","Eukaryota",88.75,80,9,1,80,8478215,8478136,1.6e-16,99,53
+"57","OTU_1394","gi|2028180812|ref|XM_040852021.1|","Aspergillus sydowii CBS 593.65","Eukaryota",94.118,85,5,1,85,1038,1122,4.46e-26,130,70
+"58","OTU_142","gi|2634424561|gb|CP139521.1|","Homo sapiens","Eukaryota",100,100,0,1,100,3700326,3700227,1.22e-42,185,100
+"59","OTU_1422","gi|57336142|emb|AJ842846.1|","Macaca mulatta","Eukaryota",100,100,0,1,100,3,102,1.22e-42,185,100
+"60","OTU_1434","gi|1279731426|ref|XM_023054646.1|","Onthophagus taurus","Eukaryota",93.976,83,5,7,89,1102,1184,6.23e-25,126,68
+"61","OTU_1436","gi|1279731758|ref|XM_023054824.1|","Onthophagus taurus","Eukaryota",85,80,10,5,83,458,536,4.38e-11,80.5,43
+"62","OTU_144","gi|2325479101|gb|ON746674.1|","Tupaia glis","Eukaryota",98.99,99,1,1,99,506,604,2e-40,178,96
+"63","OTU_1442","gi|2672450421|emb|OY998119.1|","Agrilus biguttatus","Eukaryota",83.333,96,8,2,89,11859150,11859245,1.37e-11,82.4,44
+"64","OTU_1447","gi|2370816287|gb|OP931534.1|","Phoxinus csikii","Eukaryota",99.01,101,1,1,101,204,304,1.6e-41,182,98
+"65","OTU_1447","gi|2370816316|gb|OP931548.1|","Phoxinus septimaniae","Eukaryota",99.01,101,1,1,101,204,304,1.6e-41,182,98
+"66","OTU_1447","gi|2370816217|gb|OP931499.1|","Phoxinus septimaniae;Phoxinus csikii","Eukaryota",99.01,101,1,1,101,204,304,1.6e-41,182,98
+"67","OTU_1469","gi|2547927824|emb|OY294071.1|","Endomychus coccineus","Eukaryota",81.651,109,16,3,108,13781574,13781681,3.9e-13,87.9,47
+"68","OTU_1476","gi|2040323284|emb|OU015630.1|","Zeuzera pyrina","Eukaryota",96.117,103,4,1,103,23735211,23735109,1.28e-37,169,91
+"69","OTU_1503","gi|21326043|gb|AF502307.1|","Macaca mulatta","Eukaryota",97.98,99,2,1,99,3,101,9.32e-39,172,93
+"70","OTU_1537","gi|2290203292|emb|OX291558.1|","Apoda limacodes","Eukaryota",84.783,92,11,7,95,5976147,5976056,9.51e-14,89.8,48
+"71","OTU_158","gi|2634424567|gb|CP139526.1|","Homo sapiens","Eukaryota",100,100,0,1,100,23211988,23212087,1.22e-42,185,100
+"72","OTU_1593","gi|1279725812|ref|XM_023051753.1|","Onthophagus taurus","Eukaryota",88.75,80,9,1,80,332,411,1.14e-16,99,53
+"73","OTU_16","gi|1775604709|gb|MN057619.1|","Channa striata","Eukaryota",100,99,0,1,99,3,101,4.31e-42,183,99
+"74","OTU_160","gi|2634424566|gb|CP139525.1|","Homo sapiens","Eukaryota",100,94,0,1,94,60684335,60684242,2.39e-39,174,94
+"75","OTU_1607","gi|2452980451|emb|OX439456.1|","Scotopteryx bipunctaria","Eukaryota",96.842,95,3,1,95,8931720,8931814,7.03e-35,159,86
+"76","OTU_162","gi|1057715987|gb|KX694584.1|","Calamaria pavimentata","Eukaryota",93.75,96,6,1,96,3,98,1.94e-30,145,78
+"77","OTU_162","gi|1650258424|gb|MK065526.1|","Calamaria septentrionalis","Eukaryota",93.75,96,6,1,96,3,98,1.94e-30,145,78
+"78","OTU_162","gi|1057715975|gb|KX694572.1|","Calamaria yunnanensis","Eukaryota",93.75,96,6,1,96,13,108,1.94e-30,145,78
+"79","OTU_164","gi|1279716106|ref|XM_023046695.1|","Onthophagus taurus","Eukaryota",98.851,87,1,1,87,748,834,7.65e-34,156,84
+"80","OTU_1640","gi|2646711713|emb|OY992895.1|","Cepaea hortensis","Eukaryota",90.426,94,8,2,94,25900016,25899923,9.67e-24,122,66
+"81","OTU_1654","gi|2623897657|emb|OY796665.1|","Rhagium mordax","Eukaryota",88.889,81,7,1,81,23034019,23033941,1.28e-16,99,53
+"82","OTU_1692","gi|1279718202|ref|XM_023047810.1|","Onthophagus taurus","Eukaryota",90.426,94,9,1,94,1157,1250,2.52e-24,124,67
+"83","OTU_17","gi|1559952517|gb|KY410900.1|","Callosciurus notatus","Eukaryota",100,99,0,1,99,516,614,4.31e-42,183,99
+"84","OTU_1725","gi|2392476428|emb|OX383288.1|","Dryobota labecula","Eukaryota",92.593,81,6,18,98,589879,589959,4.36e-22,117,63
+"85","OTU_1725","gi|2672230673|emb|OZ012558.1|","Schoenobius gigantella","Eukaryota",92.593,81,6,18,98,2397051,2397131,4.36e-22,117,63
+"86","OTU_173","gi|37545290|gb|AY121991.1|","Tragulus javanicus","Eukaryota",99,100,1,1,100,446,545,5.66e-41,180,97
+"87","OTU_1783","gi|2551372078|emb|OY390731.1|","Geotrupes spiniger","Eukaryota",90.123,81,8,5,85,10054364,10054284,7.67e-19,106,57
+"88","OTU_179","gi|1559953268|gb|KY410953.1|","Sundasciurus tenuis","Eukaryota",100,99,0,1,99,524,622,4.31e-42,183,99
+"89","OTU_1795","gi|2663407928|emb|OZ004727.1|","Dexiosoma caninum","Eukaryota",99.065,107,1,1,107,27171106,27171212,7.92e-45,193,104
+"90","OTU_1795","gi|2472100860|emb|OX456528.1|","Eustalomyia histrio","Eukaryota",99.065,107,1,1,107,697541,697647,7.92e-45,193,104
+"91","OTU_1795","gi|2191756833|emb|OV815328.1|","Gymnoscelis rufifasciata","Eukaryota",99.065,107,1,1,107,2716112,2716218,7.92e-45,193,104
+"92","OTU_1795","gi|2582879714|emb|OY740722.1|","Hydrotaea diabolus","Eukaryota",99.065,107,1,1,107,4840526,4840420,7.92e-45,193,104
+"93","OTU_1795","gi|2616777456|emb|OY755143.1|","Lymantria dispar","Eukaryota",99.065,107,1,1,107,4717569,4717463,7.92e-45,193,104
+"94","OTU_1795","gi|2381809660|emb|OX377614.1|","Thelaira solivaga","Eukaryota",99.065,107,1,1,107,30113326,30113220,7.92e-45,193,104
+"95","OTU_1801","gi|2560372124|emb|OY720425.1|","Melanotus villosus","Eukaryota",94.382,89,5,1,89,31321093,31321181,3.45e-28,137,74
+"96","OTU_1801","gi|2673090954|emb|OZ014496.1|","Xestobium rufovillosum","Eukaryota",94.382,89,5,1,89,18632644,18632556,3.45e-28,137,74
+"97","OTU_185","gi|1139379242|dbj|AP012948.1|","Rastrelliger kanagurta","Eukaryota",98.99,99,1,1,99,516,614,2e-40,178,96
+"98","OTU_1850","gi|2290159531|emb|OX276458.1|","Cryptocephalus moraei","Eukaryota",96.552,87,3,1,87,22276421,22276507,1.66e-30,145,78
+"99","OTU_186","gi|21326093|gb|AF502357.1|","Macaca mulatta","Eukaryota",100,99,0,1,99,3,101,4.31e-42,183,99
+"100","OTU_189","gi|1325803888|dbj|AP017956.1|","Encrasicholina punctifer","Eukaryota",100,99,0,1,99,516,614,4.31e-42,183,99
+"101","OTU_191","gi|22347507|gb|AF417341.1|","Sardinella hualiensis","Eukaryota",100,99,0,1,99,447,545,4.31e-42,183,99
+"102","OTU_193","gi|21326103|gb|AF502367.1|","Macaca mulatta","Eukaryota",98,100,2,1,100,3,102,2.63e-39,174,94
+"103","OTU_197","gi|1476682348|gb|MH918125.1|","Barbus barbus","Eukaryota",100,100,0,1,100,442,541,1.22e-42,185,100
+"104","OTU_2","gi|2624665268|gb|OR187300.1|","Gallus gallus","Eukaryota",100,102,0,1,102,529,630,9.68e-44,189,102
+"105","OTU_2","gi|2210350650|gb|OM634640.1|","Gallus gallus spadiceus","Eukaryota",100,102,0,1,102,14363,14464,9.68e-44,189,102
+"106","OTU_2","gi|2320178295|gb|OP699678.1|","Triatoma melanica","Eukaryota",100,102,0,1,102,30,131,9.68e-44,189,102
+"107","OTU_200","gi|21326055|gb|AF502319.1|","Macaca mulatta","Eukaryota",100,100,0,1,100,3,102,1.22e-42,185,100
+"108","OTU_203","gi|1841708569|gb|MK333401.1|","Trichiurus lepturus","Eukaryota",100,100,0,1,100,520,619,1.22e-42,185,100
+"109","OTU_2081","gi|1279714327|ref|XM_023045850.1|","Onthophagus taurus","Eukaryota",87.912,91,11,3,93,10528,10618,2.42e-19,108,58
+"110","OTU_212","gi|2634424563|gb|CP139522.1|","Homo sapiens","Eukaryota",100,100,0,1,100,59096258,59096159,1.22e-42,185,100
+"111","OTU_2163","gi|1279712014|ref|XM_023044656.1|","Onthophagus taurus","Eukaryota",91.011,89,8,1,89,649,561,3.21e-23,121,65
+"112","OTU_217","gi|2634358153|gb|CP139545.1|","Homo sapiens","Eukaryota",100,100,0,1,100,30830307,30830208,1.22e-42,185,100
+"113","OTU_2184","gi|2513058625|emb|OX638143.1|","Othius punctulatus","Eukaryota",98.039,102,2,1,102,69262391,69262290,2.1e-40,178,96
+"114","OTU_221","gi|2152015657|gb|OK539643.1|","Babyrousa babyrussa","Eukaryota",100,98,0,2,99,520,617,1.55e-41,182,98
+"115","OTU_2216","gi|1279708966|ref|XM_023064782.1|","Onthophagus taurus","Eukaryota",95.789,95,3,1,95,662,569,1.14e-32,152,82
+"116","OTU_23","gi|219878028|gb|FJ151336.1|","Galeopterus variegatus peninsulae","Eukaryota",100,98,0,3,100,1,98,1.57e-41,182,98
+"117","OTU_234","gi|21326062|gb|AF502326.1|","Macaca mulatta","Eukaryota",99,100,1,1,100,3,102,5.66e-41,180,97
+"118","OTU_235","gi|2440437192|emb|OX421882.1|","Cetonia aurata","Eukaryota",92.135,89,3,6,94,66340645,66340561,1.08e-23,122,66
+"119","OTU_2382","gi|2673090966|emb|OZ014508.1|","Aphodius sticticus","Eukaryota",91.765,85,7,1,85,39978005,39978089,9.66e-23,119,64
+"120","OTU_2389","gi|772105169|gb|AC256229.1|","Homo sapiens","Eukaryota",99,100,1,1,100,72754,72655,5.66e-41,180,97
+"121","OTU_2394","gi|17155087|gb|AC097526.3|","Homo sapiens","Eukaryota",100,100,0,1,100,56596,56497,1.22e-42,185,100
+"122","OTU_2444","gi|2415277908|emb|OX388311.1|","Athripsodes cinereus","Eukaryota",95.283,106,5,1,106,11799021,11799126,1.39e-37,169,91
+"123","OTU_2444","gi|2672229520|emb|OZ012552.1|","Schoenobius gigantella","Eukaryota",95.283,106,5,1,106,7698650,7698545,1.39e-37,169,91
+"124","OTU_2444","gi|2452980451|emb|OX439456.1|","Scotopteryx bipunctaria","Eukaryota",95.283,106,5,1,106,8931720,8931825,1.39e-37,169,91
+"125","OTU_2462","gi|2673090957|emb|OZ014499.1|","Xestobium rufovillosum","Eukaryota",90.099,101,9,3,103,24241578,24241479,6.04e-26,130,70
+"126","OTU_248","gi|2634424567|gb|CP139526.1|","Homo sapiens","Eukaryota",93.269,104,3,1,104,19392922,19393021,4.7e-32,150,81
+"127","OTU_2480","gi|2076208726|emb|OU452199.1|","Apoderus coryli","Eukaryota",85.366,82,6,1,82,8066038,8066113,4.56e-11,80.5,43
+"128","OTU_2495","gi|2545628611|emb|OY284493.1|","Ctenicera cuprea","Eukaryota",85.714,98,14,8,105,44538345,44538248,3.82e-18,104,56
+"129","OTU_2517","gi|21326056|gb|AF502320.1|","Macaca mulatta","Eukaryota",99,100,1,1,100,3,102,5.66e-41,180,97
+"130","OTU_2595","gi|2672450506|emb|OY998184.1|","Galeruca laticollis","Eukaryota",88.182,110,8,1,105,61768976,61768867,8.49e-25,126,68
+"131","OTU_2595","gi|2560331458|emb|OY720426.1|","Melanotus villosus","Eukaryota",88.182,110,8,1,105,20135958,20135849,8.49e-25,126,68
+"132","OTU_260","gi|1547030261|ref|NG_011805.2|","Homo sapiens","Eukaryota",100,100,0,1,100,767525,767624,1.22e-42,185,100
+"133","OTU_2619","gi|2547927824|emb|OY294071.1|","Endomychus coccineus","Eukaryota",85.321,109,14,3,110,13781574,13781681,2.38e-20,111,60
+"134","OTU_2621","gi|2268687653|emb|OX155897.1|","Phosphuga atrata","Eukaryota",94,100,4,1,99,37684243,37684145,4.43e-32,150,81
+"135","OTU_2647","gi|2231841732|emb|OW285244.1|","Melolontha melolontha","Eukaryota",85.849,106,12,2,106,24187144,24187041,8.21e-20,110,59
+"136","OTU_265","gi|21326037|gb|AF502301.1|","Macaca mulatta;Macaca maura","Eukaryota",100,96,0,1,96,3,98,1.91e-40,178,96
+"137","OTU_2651","gi|2231841732|emb|OW285244.1|","Melolontha melolontha","Eukaryota",89.908,109,11,2,110,32697233,32697341,3.03e-29,141,76
+"138","OTU_268","gi|295809508|emb|FN674059.1|","Homo sapiens","Eukaryota",100,100,0,1,100,254,353,1.22e-42,185,100
+"139","OTU_272","gi|15384727|emb|AL355887.4|","Homo sapiens","Eukaryota",100,100,0,1,100,68119,68020,1.22e-42,185,100
+"140","OTU_2734","gi|2560331458|emb|OY720426.1|","Melanotus villosus","Eukaryota",92.593,108,7,4,110,7700325,7700432,3.9e-33,154,83
+"141","OTU_2734","gi|2673090960|emb|OZ014502.1|","Xestobium rufovillosum","Eukaryota",92.593,108,7,4,110,20482742,20482635,3.9e-33,154,83
+"142","OTU_2772","gi|2095609975|emb|OU611950.1|","Sesia apiformis","Eukaryota",84.615,104,14,1,103,11747482,11747380,1.32e-17,102,55
+"143","OTU_278","gi|28208191|dbj|AB090039.1|","Heosemys grandis","Eukaryota",100,101,0,1,101,3,103,3.43e-43,187,101
+"144","OTU_279","gi|1547044249|ref|NG_016423.2|","Homo sapiens","Eukaryota",100,100,0,1,100,306186,306087,1.22e-42,185,100
+"145","OTU_2873","gi|1268893135|gb|MF893989.1|","Macaca fascicularis","Eukaryota",100,96,0,4,99,513,608,2e-40,178,96
+"146","OTU_2883","gi|17065898|emb|Z80107.2|","Homo sapiens","Eukaryota",100,100,0,1,100,47441,47540,1.22e-42,185,100
+"147","OTU_290","gi|1002164196|ref|NC_029426.1|","Leuciscus burdigalensis","Eukaryota",100,100,0,1,100,520,619,1.22e-42,185,100
+"148","OTU_290","gi|2248499890|ref|NC_063524.1|","Leuciscus idus","Eukaryota",100,100,0,1,100,519,618,1.22e-42,185,100
+"149","OTU_290","gi|2370816032|gb|OP931409.1|","Leuciscus leuciscus","Eukaryota",100,100,0,1,100,204,303,1.22e-42,185,100
+"150","OTU_290","gi|1002164182|ref|NC_029425.1|","Leuciscus oxyrrhis","Eukaryota",100,100,0,1,100,520,619,1.22e-42,185,100
+"151","OTU_2977","gi|2106370045|gb|MW364567.1|","Otus lettia","Eukaryota",99.029,103,1,1,103,535,637,1.27e-42,185,100
+"152","OTU_298","gi|17155087|gb|AC097526.3|","Homo sapiens","Eukaryota",92.784,97,7,3,99,56594,56498,2.67e-29,141,76
+"153","OTU_299","gi|14575376|emb|AL590407.8|","Homo sapiens","Eukaryota",100,99,0,1,99,28562,28660,4.31e-42,183,99
+"154","OTU_3004","gi|2211212123|emb|OW121703.1|","Lasioglossum pauxillum","Eukaryota",92.079,101,8,1,101,27338337,27338437,7.76e-30,143,77
+"155","OTU_3009","gi|2231841732|emb|OW285244.1|","Melolontha melolontha","Eukaryota",87.368,95,12,4,98,17601470,17601376,7.3e-20,110,59
+"156","OTU_3040","gi|146419009|ref|XM_001485420.1|","Meyerozyma guilliermondii ATCC 6260","Eukaryota",100,89,0,1,89,1635,1723,1.32e-36,165,89
+"157","OTU_3099","gi|2452980451|emb|OX439456.1|","Scotopteryx bipunctaria","Eukaryota",93.75,96,6,1,96,8931720,8931815,1.94e-30,145,78
+"158","OTU_31","gi|1559953801|gb|KY410991.1|","Rhinosciurus laticaudatus","Eukaryota",98.99,99,1,1,99,500,598,2e-40,178,96
+"159","OTU_3197","gi|1808626632|gb|MT048590.1|","Sus scrofa","Eukaryota",100,97,0,2,98,32,128,5.57e-41,180,97
+"160","OTU_3197","gi|1356588158|gb|MG725632.1|","Sus scrofa cristatus","Eukaryota",100,97,0,2,98,962,1058,5.57e-41,180,97
+"161","OTU_3197","gi|1024249785|gb|KT965278.1|","Sus scrofa domesticus","Eukaryota",100,97,0,2,98,1107,1203,5.57e-41,180,97
+"162","OTU_3197","gi|757173677|gb|KP301137.1|","Sus scrofa scrofa","Eukaryota",100,97,0,2,98,517,613,5.57e-41,180,97
+"163","OTU_3197","gi|2430244314|gb|OQ303842.1|","Sus scrofa taivanus","Eukaryota",100,97,0,2,98,446,542,5.57e-41,180,97
+"164","OTU_3197","gi|223976078|ref|NC_012095.1|","Sus scrofa;Sus scrofa domesticus","Eukaryota",100,97,0,2,98,516,612,5.57e-41,180,97
+"165","OTU_3197","gi|695275196|gb|KJ192444.1|","Sus scrofa;Thryonomys swinderianus","Eukaryota",100,97,0,2,98,2,98,5.57e-41,180,97
+"166","OTU_3197","gi|983212057|gb|KU254274.1|","vertebrate environmental sample","Eukaryota",100,97,0,2,98,2,98,5.57e-41,180,97
+"167","OTU_320","gi|21326074|gb|AF502338.1|","Macaca mulatta","Eukaryota",100,100,0,1,100,3,102,1.22e-42,185,100
+"168","OTU_3202","gi|2560331525|emb|OY720427.1|","Melanotus villosus","Eukaryota",95.283,106,5,1,106,15314321,15314216,1.34e-37,169,91
+"169","OTU_321","gi|21326034|gb|AF502298.1|","Macaca mulatta","Eukaryota",100,100,0,1,100,3,102,1.22e-42,185,100
+"170","OTU_3285","gi|2268692367|emb|OX155904.1|","Phosphuga atrata","Eukaryota",93.407,91,4,18,107,20954846,20954935,4.87e-27,134,72
+"171","OTU_3311","gi|2085881592|emb|OU565287.1|","Sphecodes monilicornis","Eukaryota",95.699,93,4,1,93,23988512,23988604,4.3e-32,150,81
+"172","OTU_332","gi|21326081|gb|AF502345.1|","Macaca mulatta","Eukaryota",99.01,101,0,1,101,3,102,5.74e-41,180,97
+"173","OTU_3341","gi|2268691800|emb|OX155968.1|","Micropterix aruncella","Eukaryota",89.157,83,9,11,93,12884390,12884472,3.13e-18,104,56
+"174","OTU_340","gi|57336146|emb|AJ842850.1|","Macaca mulatta","Eukaryota",99,100,1,1,100,3,102,5.66e-41,180,97
+"175","OTU_3439","gi|1279579848|gb|MG196309.1|","Manis javanica","Eukaryota",100,100,0,1,100,518,617,1.22e-42,185,100
+"176","OTU_3489","gi|2560371753|emb|OY720424.1|","Melanotus villosus","Eukaryota",93.103,87,6,1,87,19422551,19422637,1.67e-25,128,69
+"177","OTU_35","gi|2493709167|gb|OQ674796.1|","Bos grunniens x Bos taurus","Eukaryota",100,100,0,1,100,871,970,1.22e-42,185,100
+"178","OTU_35","gi|2512246179|gb|OQ736776.1|","Bos indicus","Eukaryota",100,100,0,1,100,777,876,1.22e-42,185,100
+"179","OTU_35","gi|2644582918|gb|OQ160855.1|","Bos primigenius","Eukaryota",100,100,0,1,100,870,969,1.22e-42,185,100
+"180","OTU_35","gi|2656632396|gb|PP155642.1|","Bos taurus","Eukaryota",100,100,0,1,100,871,970,1.22e-42,185,100
+"181","OTU_3523","gi|2211212578|emb|OW121706.1|","Lasioglossum pauxillum","Eukaryota",92.391,92,5,1,91,26447747,26447657,4.99e-26,130,70
+"182","OTU_3598","gi|1961335566|gb|MW524740.1|","Homo sapiens","Eukaryota",96,100,4,1,100,23,122,5.7e-36,163,88
+"183","OTU_364","gi|1200165629|gb|KY471456.1|","Otus scops","Eukaryota",99.029,103,1,1,103,538,640,1.27e-42,185,100
+"184","OTU_364","gi|1610617534|ref|NC_041422.1|","Otus sunia","Eukaryota",99.029,103,1,1,103,538,640,1.27e-42,185,100
+"185","OTU_3679","gi|2560366808|emb|OY720457.1|","Harpalus rubripes","Eukaryota",91.176,102,6,2,102,40789882,40789981,1.28e-27,135,73
+"186","OTU_372","gi|21622682|gb|AC104629.10|","Homo sapiens","Eukaryota",100,100,0,1,100,90205,90106,1.22e-42,185,100
+"187","OTU_3733","gi|2673090975|emb|OZ014514.1|","Aphodius sticticus","Eukaryota",90.625,96,9,1,96,12658336,12658431,2.05e-25,128,69
+"188","OTU_375","gi|2634424560|gb|CP139520.1|","Homo sapiens","Eukaryota",100,100,0,1,100,12308865,12308964,1.22e-42,185,100
+"189","OTU_379","gi|1279704705|ref|XM_023047396.1|","Onthophagus taurus","Eukaryota",91.579,95,8,1,95,2026,2120,1.48e-26,132,71
+"190","OTU_38","gi|1331215047|ref|NC_036729.1|","Sundamys annandalei","Eukaryota",100,100,0,1,100,514,613,1.22e-42,185,100
+"191","OTU_389","gi|1476682361|gb|MH918138.1|","Cottus gobio","Eukaryota",100,99,0,1,99,445,543,4.31e-42,183,99
+"192","OTU_389","gi|1269030720|ref|NC_036147.1|","Cottus rhenanus","Eukaryota",100,99,0,1,99,515,613,4.31e-42,183,99
+"193","OTU_39","gi|2317810548|gb|OP459436.1|","Decapterus maruadsi","Eukaryota",100,99,0,1,99,513,611,4.31e-42,183,99
+"194","OTU_390","gi|342166478|dbj|AB634643.1|","Kalophrynus sp. KUHE 53284","Eukaryota",100,90,0,1,90,395,484,3.74e-37,167,90
+"195","OTU_391","gi|1074196485|dbj|AP011178.1|","Carassioides acuminatus","Eukaryota",100,99,0,1,99,516,614,4.31e-42,183,99
+"196","OTU_391","gi|1352192314|gb|KY798482.1|","Carassius auratus","Eukaryota",100,99,0,1,99,458,556,4.31e-42,183,99
+"197","OTU_391","gi|948550267|gb|KT756205.1|","Carassius auratus 'high back crucian carp'","Eukaryota",100,99,0,1,99,516,614,4.31e-42,183,99
+"198","OTU_391","gi|1258168614|gb|MF443771.1|","Carassius auratus auratus","Eukaryota",100,99,0,1,99,1439,1537,4.31e-42,183,99
+"199","OTU_391","gi|906357842|dbj|AP011239.1|","Carassius auratus grandoculis","Eukaryota",100,99,0,1,99,516,614,4.31e-42,183,99
+"200","OTU_391","gi|2496525642|gb|OQ679763.1|","Carassius auratus ssp. 'Pengze'","Eukaryota",100,99,0,1,99,1439,1537,4.31e-42,183,99
+"201","OTU_391","gi|323481938|ref|NC_015142.1|","Carassius auratus ssp. 'Pingxiang'","Eukaryota",100,99,0,1,99,1435,1533,4.31e-42,183,99
+"202","OTU_391","gi|270301391|gb|GU186888.1|","Carassius auratus x Cyprinus carpio","Eukaryota",100,99,0,1,99,1439,1537,4.31e-42,183,99
+"203","OTU_391","gi|311087971|gb|HQ401008.1|","Carassius auratus x Megalobrama amblycephala pentaploid hybrid","Eukaryota",100,99,0,1,99,1440,1538,4.31e-42,183,99
+"204","OTU_391","gi|261866623|ref|NC_013430.1|","Carassius auratus x Megalobrama amblycephala tetraploid hybrid","Eukaryota",100,99,0,1,99,1439,1537,4.31e-42,183,99
+"205","OTU_391","gi|261866637|ref|NC_013431.1|","Carassius auratus x Megalobrama amblycephala triploid hybrid","Eukaryota",100,99,0,1,99,1439,1537,4.31e-42,183,99
+"206","OTU_391","gi|1252314667|ref|NC_035976.1|","Carassius auratus x Megalobrama amblycephala x Carassius cuvieri","Eukaryota",100,99,0,1,99,1438,1536,4.31e-42,183,99
+"207","OTU_391","gi|1197011479|gb|KX781320.1|","Carassius carassius","Eukaryota",100,99,0,1,99,1439,1537,4.31e-42,183,99
+"208","OTU_391","gi|906357828|dbj|AP011237.1|","Carassius cuvieri","Eukaryota",100,99,0,1,99,516,614,4.31e-42,183,99
+"209","OTU_391","gi|1070304081|gb|KX505166.1|","Carassius gibelio","Eukaryota",100,99,0,1,99,1438,1536,4.31e-42,183,99
+"210","OTU_391","gi|5835778|ref|NC_002079.1|","Carassius langsdorfii","Eukaryota",100,99,0,1,99,1437,1535,4.31e-42,183,99
+"211","OTU_391","gi|2414551017|dbj|LC742188.1|","Carassius sp. IDEA_Fish426","Eukaryota",100,99,0,1,99,441,539,4.31e-42,183,99
+"212","OTU_391","gi|1694465481|gb|MK085973.1|","Cyprinus carpio x Megalobrama amblycephala","Eukaryota",100,99,0,1,99,1439,1537,4.31e-42,183,99
+"213","OTU_391","gi|254033645|ref|NC_012980.1|","natural gynogenetic Carassius auratus red var.","Eukaryota",100,99,0,1,99,1439,1537,4.31e-42,183,99
+"214","OTU_393","gi|21326077|gb|AF502341.1|","Macaca mulatta","Eukaryota",100,100,0,1,100,3,102,1.22e-42,185,100
+"215","OTU_3937","gi|2560371753|emb|OY720424.1|","Melanotus villosus","Eukaryota",92.5,80,6,3,82,20835895,20835974,1.18e-21,115,62
+"216","OTU_399","gi|21326043|gb|AF502307.1|","Macaca mulatta","Eukaryota",96.078,102,1,1,102,3,101,5.87e-36,163,88
+"217","OTU_4067","gi|2211167295|emb|OW052099.1|","Caradrina clavipalpis","Eukaryota",90,80,8,1,80,16653236,16653315,2.44e-18,104,56
+"218","OTU_4190","gi|2672402743|emb|OZ012656.1|","Priocnemis perturbator","Eukaryota",91.589,107,9,1,107,196170,196064,1.74e-31,148,80
+"219","OTU_420","gi|2665687358|gb|PP209160.1|","Meyerozyma guilliermondii","Eukaryota",100,83,0,1,83,2916,2998,2.55e-33,154,83
+"220","OTU_420","gi|146422721|ref|XM_001487246.1|","Meyerozyma guilliermondii;Meyerozyma guilliermondii ATCC 6260","Eukaryota",100,83,0,1,83,1916,1998,2.55e-33,154,83
+"221","OTU_423","gi|1279717078|ref|XM_023047209.1|","Onthophagus taurus","Eukaryota",89.908,109,11,1,109,563,455,2.99e-29,141,76
+"222","OTU_427","gi|1790167109|dbj|AP018760.1|","Amblygaster sirm","Eukaryota",100,99,0,1,99,522,620,4.31e-42,183,99
+"223","OTU_43","gi|2554136882|gb|OR360074.1|","Potamochoerus porcus","Eukaryota",100,99,0,1,99,1,99,4.31e-42,183,99
+"224","OTU_438","gi|1279731426|ref|XM_023054646.1|","Onthophagus taurus","Eukaryota",95.181,83,4,7,89,1102,1184,1.34e-26,132,71
+"225","OTU_440","gi|1961334766|gb|MW524395.1|","Homo sapiens","Eukaryota",100,99,0,1,99,120,22,4.31e-42,183,99
+"226","OTU_4402","gi|21326070|gb|AF502334.1|","Macaca mulatta","Eukaryota",99,100,1,1,100,3,102,5.66e-41,180,97
+"227","OTU_4469","gi|2415277908|emb|OX388311.1|","Athripsodes cinereus","Eukaryota",95.96,99,4,1,99,11799130,11799032,2.02e-35,161,87
+"228","OTU_4734","gi|2302150551|emb|OX333080.1|","Alloplasta piceator","Eukaryota",91.463,82,5,1,81,24899107,24899187,1.68e-20,111,60
+"229","OTU_4760","gi|345431199|dbj|AB426937.1|","Aesalus asiaticus","Eukaryota",100,87,0,1,87,902,816,1.65e-35,161,87
+"230","OTU_4760","gi|1142102530|gb|KX278761.1|","Anomala aereiventris","Eukaryota",100,87,0,1,87,2138,2052,1.65e-35,161,87
+"231","OTU_4760","gi|1142102533|gb|KX278764.1|","Anomala aglaos","Eukaryota",100,87,0,1,87,2138,2052,1.65e-35,161,87
+"232","OTU_4760","gi|574450823|gb|KF737970.1|","Anomala balzapambae","Eukaryota",100,87,0,1,87,2154,2068,1.65e-35,161,87
+"233","OTU_4760","gi|574450817|gb|KF737964.1|","Anomala calligrapha","Eukaryota",100,87,0,1,87,2154,2068,1.65e-35,161,87
+"234","OTU_4760","gi|1142102511|gb|KX278742.1|","Anomala clarivillosa","Eukaryota",100,87,0,1,87,2137,2051,1.65e-35,161,87
+"235","OTU_4760","gi|1142102542|gb|KX278773.1|","Anomala clathrata","Eukaryota",100,87,0,1,87,829,743,1.65e-35,161,87
+"236","OTU_4760","gi|1142102515|gb|KX278746.1|","Anomala contusa","Eukaryota",100,87,0,1,87,2137,2051,1.65e-35,161,87
+"237","OTU_4760","gi|574450828|gb|KF737975.1|","Anomala cupricollis","Eukaryota",100,87,0,1,87,2152,2066,1.65e-35,161,87
+"238","OTU_4760","gi|574450838|gb|KF737985.1|","Anomala discoidalis","Eukaryota",100,87,0,1,87,2339,2253,1.65e-35,161,87
+"239","OTU_4760","gi|574450806|gb|KF737953.1|","Anomala eucoma","Eukaryota",100,87,0,1,87,2172,2086,1.65e-35,161,87
+"240","OTU_4760","gi|1142102528|gb|KX278759.1|","Anomala ferrea","Eukaryota",100,87,0,1,87,2235,2149,1.65e-35,161,87
+"241","OTU_4760","gi|1142102505|gb|KX278736.1|","Anomala flavacoma","Eukaryota",100,87,0,1,87,1325,1239,1.65e-35,161,87
+"242","OTU_4760","gi|1142102517|gb|KX278748.1|","Anomala globulata","Eukaryota",100,87,0,1,87,2136,2050,1.65e-35,161,87
+"243","OTU_4760","gi|1142102534|gb|KX278765.1|","Anomala hoppi","Eukaryota",100,87,0,1,87,2312,2226,1.65e-35,161,87
+"244","OTU_4760","gi|1142102513|gb|KX278744.1|","Anomala levicollis","Eukaryota",100,87,0,1,87,2138,2052,1.65e-35,161,87
+"245","OTU_4760","gi|574450826|gb|KF737973.1|","Anomala mimeloides","Eukaryota",100,87,0,1,87,2155,2069,1.65e-35,161,87
+"246","OTU_4760","gi|1142102519|gb|KX278750.1|","Anomala nigroflava","Eukaryota",100,87,0,1,87,1347,1261,1.65e-35,161,87
+"247","OTU_4760","gi|1142102536|gb|KX278767.1|","Anomala obovata","Eukaryota",100,87,0,1,87,2138,2052,1.65e-35,161,87
+"248","OTU_4760","gi|1142102506|gb|KX278737.1|","Anomala parvaeucoma","Eukaryota",100,87,0,1,87,1332,1246,1.65e-35,161,87
+"249","OTU_4760","gi|1142102516|gb|KX278747.1|","Anomala perspicax","Eukaryota",100,87,0,1,87,2124,2038,1.65e-35,161,87
+"250","OTU_4760","gi|1142102544|gb|KX278775.1|","Anomala semicincta","Eukaryota",100,87,0,1,87,2178,2092,1.65e-35,161,87
+"251","OTU_4760","gi|1142102531|gb|KX278762.1|","Anomala semilla","Eukaryota",100,87,0,1,87,1343,1257,1.65e-35,161,87
+"252","OTU_4760","gi|574450818|gb|KF737965.1|","Anomala sp. 206","Eukaryota",100,87,0,1,87,2137,2051,1.65e-35,161,87
+"253","OTU_4760","gi|1142102520|gb|KX278751.1|","Anomala sp. 249","Eukaryota",100,87,0,1,87,1289,1203,1.65e-35,161,87
+"254","OTU_4760","gi|574450824|gb|KF737971.1|","Anomala sp. 309","Eukaryota",100,87,0,1,87,2136,2050,1.65e-35,161,87
+"255","OTU_4760","gi|1142102514|gb|KX278745.1|","Anomala stillaticia","Eukaryota",100,87,0,1,87,2138,2052,1.65e-35,161,87
+"256","OTU_4760","gi|1142102524|gb|KX278755.1|","Anomala strigodermoides","Eukaryota",100,87,0,1,87,1349,1263,1.65e-35,161,87
+"257","OTU_4760","gi|1142102532|gb|KX278763.1|","Anomala tenoriensis","Eukaryota",100,87,0,1,87,2138,2052,1.65e-35,161,87
+"258","OTU_4760","gi|1142102546|gb|KX278777.1|","Anomala testaceipennis","Eukaryota",100,87,0,1,87,2245,2159,1.65e-35,161,87
+"259","OTU_4760","gi|574450816|gb|KF737963.1|","Anomala trapezifera;Anomala subridens","Eukaryota",100,87,0,1,87,2137,2051,1.65e-35,161,87
+"260","OTU_4760","gi|1142102548|gb|KX278779.1|","Anomala tuberculata","Eukaryota",100,87,0,1,87,2138,2052,1.65e-35,161,87
+"261","OTU_4760","gi|1142102512|gb|KX278743.1|","Anomala vallisneria","Eukaryota",100,87,0,1,87,2137,2051,1.65e-35,161,87
+"262","OTU_4760","gi|1142102523|gb|KX278754.1|","Anomala volsellata","Eukaryota",100,87,0,1,87,2315,2229,1.65e-35,161,87
+"263","OTU_4760","gi|1142102522|gb|KX278753.1|","Anomala zumbadoi","Eukaryota",100,87,0,1,87,1321,1235,1.65e-35,161,87
+"264","OTU_4760","gi|574450825|gb|KF737972.1|","Anomalorhina turrialbana","Eukaryota",100,87,0,1,87,2272,2186,1.65e-35,161,87
+"265","OTU_4760","gi|2673090976|emb|OZ014515.1|","Aphodius sticticus","Eukaryota",100,87,0,1,87,16560749,16560663,1.65e-35,161,87
+"266","OTU_4760","gi|574450830|gb|KF737977.1|","Callistethus chontalensis","Eukaryota",100,87,0,1,87,2167,2081,1.65e-35,161,87
+"267","OTU_4760","gi|574450812|gb|KF737959.1|","Callistethus fuscorubens","Eukaryota",100,87,0,1,87,1321,1235,1.65e-35,161,87
+"268","OTU_4760","gi|574450831|gb|KF737978.1|","Callistethus granulipygus","Eukaryota",100,87,0,1,87,2176,2090,1.65e-35,161,87
+"269","OTU_4760","gi|574450833|gb|KF737980.1|","Callistethus lativittis","Eukaryota",100,87,0,1,87,848,762,1.65e-35,161,87
+"270","OTU_4760","gi|574450809|gb|KF737956.1|","Callistethus levigatus","Eukaryota",100,87,0,1,87,2157,2071,1.65e-35,161,87
+"271","OTU_4760","gi|574450836|gb|KF737983.1|","Callistethus macroxantholeus","Eukaryota",100,87,0,1,87,2148,2062,1.65e-35,161,87
+"272","OTU_4760","gi|574450841|gb|KF737988.1|","Callistethus microxantholeus","Eukaryota",100,87,0,1,87,2140,2054,1.65e-35,161,87
+"273","OTU_4760","gi|574450813|gb|KF737960.1|","Callistethus parapulcher","Eukaryota",100,87,0,1,87,2172,2086,1.65e-35,161,87
+"274","OTU_4760","gi|574450835|gb|KF737982.1|","Callistethus schneideri","Eukaryota",100,87,0,1,87,2178,2092,1.65e-35,161,87
+"275","OTU_4760","gi|574450820|gb|KF737967.1|","Callistethus valdecostatus","Eukaryota",100,87,0,1,87,2180,2094,1.65e-35,161,87
+"276","OTU_4760","gi|1142102527|gb|KX278758.1|","Callistethus yalizo","Eukaryota",100,87,0,1,87,1340,1254,1.65e-35,161,87
+"277","OTU_4760","gi|345431200|dbj|AB426938.1|","Ceruchus lignarius","Eukaryota",100,87,0,1,87,907,821,1.65e-35,161,87
+"278","OTU_4760","gi|2440437202|emb|OX421892.1|","Cetonia aurata","Eukaryota",100,87,0,1,87,1859281,1859195,1.65e-35,161,87
+"279","OTU_4760","gi|1142102539|gb|KX278770.1|","Cyclocephala erotylina","Eukaryota",100,87,0,1,87,1302,1216,1.65e-35,161,87
+"280","OTU_4760","gi|47498392|gb|AY521744.1|","Phyllophaga sp. BYU_ACCO040","Eukaryota",100,87,0,1,87,2178,2092,1.65e-35,161,87
+"281","OTU_4760","gi|37223285|gb|AY310662.1|","Phyllophaga sp. JAR-2003","Eukaryota",100,87,0,1,87,2170,2084,1.65e-35,161,87
+"282","OTU_4760","gi|1142102538|gb|KX278769.1|","Platycoelia humeralis","Eukaryota",100,87,0,1,87,2295,2209,1.65e-35,161,87
+"283","OTU_4764","gi|2546775058|emb|OY293827.1|","Crioceris asparagi","Eukaryota",86.408,103,14,1,103,23213343,23213445,6.08e-21,113,61
+"284","OTU_4818","gi|2112932775|emb|OU795043.1|","Patella pellucida","Eukaryota",85,80,12,1,80,4900274,4900195,1.42e-11,82.4,44
+"285","OTU_4891","gi|2551373105|emb|OY390735.1|","Geotrupes spiniger","Eukaryota",91.837,98,8,1,98,22535681,22535584,3.45e-28,137,74
+"286","OTU_5","gi|589144623|ref|NC_023541.1|","Sus cebifrons","Eukaryota",100,99,0,1,99,1557,1655,4.31e-42,183,99
+"287","OTU_5","gi|145315776|gb|EF545592.1|","Sus scrofa","Eukaryota",100,99,0,1,99,1827,1925,4.31e-42,183,99
+"288","OTU_5","gi|675295369|gb|KJ789952.1|","Sus scrofa domesticus","Eukaryota",100,99,0,1,99,1557,1655,4.31e-42,183,99
+"289","OTU_5071","gi|2672402823|emb|OZ012707.1|","Cylloceria caligata","Eukaryota",95.402,87,2,1,85,8860049,8859963,2.77e-28,137,74
+"290","OTU_5071","gi|2519850269|emb|OX596278.1|","Harpalus rufipes","Eukaryota",95.402,87,2,1,85,20139292,20139378,2.77e-28,137,74
+"291","OTU_5071","gi|2211222234|emb|OW121795.1|","Leistus spinibarbis","Eukaryota",95.402,87,2,1,85,1647582,1647496,2.77e-28,137,74
+"292","OTU_51","gi|390632662|gb|JQ991603.1|","Varanus bengalensis","Eukaryota",100,96,0,1,96,16,111,1.91e-40,178,96
+"293","OTU_5134","gi|2040324639|emb|OU015634.1|","Zeuzera pyrina","Eukaryota",95.455,88,3,11,98,21894006,21893920,1.08e-28,139,75
+"294","OTU_520","gi|14589691|gb|AC013437.8|","Homo sapiens","Eukaryota",100,100,0,1,100,65472,65373,1.22e-42,185,100
+"295","OTU_5206","gi|2673090960|emb|OZ014502.1|","Xestobium rufovillosum","Eukaryota",89.189,111,11,1,110,20482745,20482635,3.92e-28,137,74
+"296","OTU_5207","gi|2560328956|emb|OY720319.1|","Philonthus spinipes","Eukaryota",100,82,0,1,82,10297691,10297610,9.34e-33,152,82
+"297","OTU_528","gi|1567481465|ref|NC_040292.1|","Nycticebus coucang insularis","Eukaryota",100,99,0,1,99,525,623,4.31e-42,183,99
+"298","OTU_5315","gi|1268893135|gb|MF893989.1|","Macaca fascicularis","Eukaryota",98.98,98,1,1,98,510,607,7.21e-40,176,95
+"299","OTU_5343","gi|2518552833|emb|OX638361.1|","Hermaeophaga mercurialis","Eukaryota",85.882,85,9,1,85,22206743,22206824,2.72e-13,87.9,47
+"300","OTU_537","gi|2669162116|emb|OZ007492.1|","Caenorhabditis plicata","Eukaryota",100,85,0,1,85,10527919,10528003,2.05e-34,158,85
+"301","OTU_54","gi|1735237177|ref|NC_044472.1|","Sardinella fijiensis","Eukaryota",100,99,0,1,99,514,612,4.31e-42,183,99
+"302","OTU_54","gi|1918304739|gb|MW158775.1|","Sardinella jussieu","Eukaryota",100,99,0,1,99,24,122,4.31e-42,183,99
+"303","OTU_54","gi|1241931945|ref|NC_035874.1|","Sardinella jussieu;Sardinella fijiensis","Eukaryota",100,99,0,1,99,514,612,4.31e-42,183,99
+"304","OTU_560","gi|21326048|gb|AF502312.1|","Macaca mulatta","Eukaryota",99,100,1,1,100,3,102,5.66e-41,180,97
+"305","OTU_566","gi|125858438|emb|AM492801.1|","Macaca arctoides","Eukaryota",93.333,105,1,1,105,3,101,4.77e-32,150,81
+"306","OTU_566","gi|125858444|emb|AM492807.1|","Macaca fascicularis","Eukaryota",93.333,105,1,1,105,3,101,4.77e-32,150,81
+"307","OTU_566","gi|34305181|gb|AY360269.1|","Macaca mulatta","Eukaryota",93.333,105,1,1,105,3,101,4.77e-32,150,81
+"308","OTU_57","gi|1898139978|gb|MT410946.1|","Alburnus alburnus","Eukaryota",100,101,0,1,101,1149,1249,3.43e-43,187,101
+"309","OTU_57","gi|1993500642|gb|MW652802.1|","Phoxinus phoxinus","Eukaryota",100,101,0,1,101,440,540,3.43e-43,187,101
+"310","OTU_571","gi|2634358196|gb|CP139551.1|","Homo sapiens","Eukaryota",98.98,98,1,1,98,2292280,2292183,7.32e-40,176,95
+"311","OTU_5781","gi|2560359970|emb|OY720449.1|","Harpalus rubripes","Eukaryota",93.827,81,5,1,81,46508144,46508064,7.91e-24,122,66
+"312","OTU_5893","gi|2444161672|gb|OQ199571.1|","Macaca assamensis","Eukaryota",98.958,96,1,1,96,510,605,9.32e-39,172,93
+"313","OTU_5893","gi|1268893037|gb|MF893982.1|","Macaca fascicularis","Eukaryota",98.958,96,1,1,96,510,605,9.32e-39,172,93
+"314","OTU_5893","gi|1070067779|ref|NC_031156.1|","Macaca leucogenys","Eukaryota",98.958,96,1,1,96,1045,1140,9.32e-39,172,93
+"315","OTU_592","gi|1268892387|gb|MF893935.1|","Macaca fascicularis","Eukaryota",96.97,99,3,1,99,510,608,4.34e-37,167,90
+"316","OTU_592","gi|21326093|gb|AF502357.1|","Macaca mulatta","Eukaryota",96.97,99,3,1,99,3,101,4.34e-37,167,90
+"317","OTU_5920","gi|2673090967|emb|OZ014509.1|","Aphodius sticticus","Eukaryota",86,100,14,1,100,58531262,58531361,2.71e-19,108,58
+"318","OTU_5954","gi|2042861475|ref|XM_041705588.1|","Aspergillus puulaauensis","Eukaryota",98.131,107,2,1,107,233,339,3.69e-43,187,101
+"319","OTU_610","gi|17979892|gb|AF363578.1|","Homo sapiens","Eukaryota",98.864,88,1,1,88,92552,92639,2.21e-34,158,85
+"320","OTU_6314","gi|2634358196|gb|CP139551.1|","Homo sapiens","Eukaryota",98.99,99,1,1,99,2292280,2292182,2.03e-40,178,96
+"321","OTU_6350","gi|2440437202|emb|OX421892.1|","Cetonia aurata","Eukaryota",94.624,93,3,1,92,1848269,1848178,6.52e-30,143,77
+"322","OTU_642","gi|470227023|ref|NC_020596.1|","Tachycineta bicolor","Eukaryota",99.02,102,1,1,102,462,563,4.5e-42,183,99
+"323","OTU_642","gi|470227156|ref|NC_020599.1|","Tachycineta cyaneoviridis","Eukaryota",99.02,102,1,1,102,462,563,4.5e-42,183,99
+"324","OTU_642","gi|470227100|ref|NC_020598.1|","Tachycineta euchrysea","Eukaryota",99.02,102,1,1,102,462,563,4.5e-42,183,99
+"325","OTU_6454","gi|1279747322|ref|XM_023062903.1|","Onthophagus taurus","Eukaryota",92.233,103,8,1,103,1617,1515,6e-31,147,79
+"326","OTU_6540","gi|2231841732|emb|OW285244.1|","Melolontha melolontha","Eukaryota",90.426,94,9,5,98,32697248,32697341,2.61e-24,124,67
+"327","OTU_668","gi|1139379214|dbj|AP012946.1|","Euthynnus affinis","Eukaryota",98.99,99,1,1,99,514,612,2e-40,178,96
+"328","OTU_668","gi|1790166973|dbj|AP006829.1|","Euthynnus alletteratus","Eukaryota",98.99,99,1,1,99,513,611,2e-40,178,96
+"329","OTU_668","gi|2580278232|gb|OP057037.2|","Euthynnus lineatus","Eukaryota",98.99,99,1,1,99,514,612,2e-40,178,96
+"330","OTU_668","gi|726965608|gb|KM605252.1|","Katsuwonus pelamis","Eukaryota",98.99,99,1,1,99,514,612,2e-40,178,96
+"331","OTU_6744","gi|1279733162|ref|XM_023055567.1|","Onthophagus taurus","Eukaryota",97.674,86,2,1,86,80,165,1.26e-31,148,80
+"332","OTU_6783","gi|2575799671|emb|OY728583.1|","Carabus problematicus","Eukaryota",89.535,86,7,7,92,7739285,7739368,2.38e-19,108,58
+"333","OTU_6985","gi|2634358141|gb|CP139534.1|","Homo sapiens","Eukaryota",99,100,1,1,100,11351762,11351861,5.66e-41,180,97
+"334","OTU_7","gi|2444161630|gb|OQ199568.1|","Macaca arctoides","Eukaryota",100,99,0,1,99,510,608,4.31e-42,183,99
+"335","OTU_7","gi|1268893065|gb|MF893984.1|","Macaca fascicularis","Eukaryota",100,99,0,1,99,510,608,4.31e-42,183,99
+"336","OTU_70","gi|21326043|gb|AF502307.1|","Macaca mulatta","Eukaryota",99,100,0,1,99,3,102,2e-40,178,96
+"337","OTU_73","gi|1279730058|ref|XM_023053922.1|","Onthophagus taurus","Eukaryota",93.333,90,6,1,90,1094,1183,3.79e-27,134,72
+"338","OTU_740","gi|295809508|emb|FN674059.1|","Homo sapiens","Eukaryota",96,100,4,1,100,254,353,5.7e-36,163,88
+"339","OTU_75","gi|2670540848|emb|OZ010001.1|","Anas acuta","Eukaryota",100,101,0,1,101,546,646,3.43e-43,187,101
+"340","OTU_75","gi|507474041|gb|KC771255.1|","Anas crecca","Eukaryota",100,101,0,1,101,547,647,3.43e-43,187,101
+"341","OTU_75","gi|294999456|gb|HM063540.1|","Anas crecca crecca","Eukaryota",100,101,0,1,101,512,612,3.43e-43,187,101
+"342","OTU_75","gi|6318692|gb|AF173690.1|AF173690","Anas cyanoptera","Eukaryota",100,101,0,1,101,3,103,3.43e-43,187,101
+"343","OTU_75","gi|6318694|gb|AF173692.1|AF173692","Anas hottentota","Eukaryota",100,101,0,1,101,3,103,3.43e-43,187,101
+"344","OTU_75","gi|1750939978|gb|MK770342.1|","Anas platyrhynchos","Eukaryota",100,101,0,1,101,1595,1695,3.43e-43,187,101
+"345","OTU_75","gi|2563111738|gb|OR269155.1|","Anas poecilorhyncha","Eukaryota",100,101,0,1,101,546,646,3.43e-43,187,101
+"346","OTU_75","gi|2132858599|gb|MZ593724.1|","Anas zonorhyncha","Eukaryota",100,101,0,1,101,546,646,3.43e-43,187,101
+"347","OTU_75","gi|2029858669|gb|MW849288.1|","Histrionicus histrionicus","Eukaryota",100,101,0,1,101,1623,1723,3.43e-43,187,101
+"348","OTU_75","gi|37725792|gb|AY164527.1|","Mareca falcata","Eukaryota",100,101,0,1,101,475,575,3.43e-43,187,101
+"349","OTU_75","gi|6318700|gb|AF173698.1|AF173698","Ptaiochen pau","Eukaryota",100,101,0,1,101,3,103,3.43e-43,187,101
+"350","OTU_75","gi|948299546|ref|NC_028346.1|","Spatula clypeata","Eukaryota",100,101,0,1,101,547,647,3.43e-43,187,101
+"351","OTU_75","gi|6318693|gb|AF173691.1|AF173691","Spatula querquedula","Eukaryota",100,101,0,1,101,3,103,3.43e-43,187,101
+"352","OTU_75","gi|674840596|ref|NC_024750.1|","Tadorna tadorna","Eukaryota",100,101,0,1,101,1596,1696,3.43e-43,187,101
+"353","OTU_75","gi|6318699|gb|AF173697.1|AF173697","Thambetochen chauliodous","Eukaryota",100,101,0,1,101,3,103,3.43e-43,187,101
+"354","OTU_75","gi|983212086|gb|KU254291.1|","vertebrate environmental sample","Eukaryota",100,101,0,1,101,1,101,3.43e-43,187,101
+"355","OTU_8","gi|372291711|ref|NC_016707.1|","Cervus albirostris","Eukaryota",100,100,0,1,100,509,608,1.22e-42,185,100
+"356","OTU_8","gi|1240339374|gb|MF177030.1|","Rusa unicolor","Eukaryota",100,100,0,1,100,504,603,1.22e-42,185,100
+"357","OTU_8","gi|2090366089|gb|MK941883.1|","Rusa unicolor cambojensis","Eukaryota",100,100,0,1,100,509,608,1.22e-42,185,100
+"358","OTU_8","gi|1219401643|gb|KY946815.1|","Rusa unicolor hainana","Eukaryota",100,100,0,1,100,509,608,1.22e-42,185,100
+"359","OTU_8","gi|2430244312|gb|OQ303840.1|","Rusa unicolor swinhoei","Eukaryota",100,100,0,1,100,440,539,1.22e-42,185,100
+"360","OTU_80","gi|1642519614|ref|NC_042168.1|","Trichiurus haumela","Eukaryota",100,100,0,1,100,520,619,1.22e-42,185,100
+"361","OTU_80","gi|1796389742|gb|MK292708.1|","Trichiurus japonicus","Eukaryota",100,100,0,1,100,520,619,1.22e-42,185,100
+"362","OTU_80","gi|2580283331|gb|OP057099.2|","Trichiurus lepturus","Eukaryota",100,100,0,1,100,1434,1533,1.22e-42,185,100
+"363","OTU_81","gi|358726034|gb|JN316926.1|","Chordata environmental sample","Eukaryota",100,100,0,1,100,3,102,1.22e-42,185,100
+"364","OTU_81","gi|1898880459|gb|MT768090.1|","Ovis ammon","Eukaryota",100,100,0,1,100,512,611,1.22e-42,185,100
+"365","OTU_81","gi|2468613588|gb|OQ509383.1|","Ovis ammon ammon","Eukaryota",100,100,0,1,100,513,612,1.22e-42,185,100
+"366","OTU_81","gi|1071034834|gb|KX609626.1|","Ovis ammon darwini","Eukaryota",100,100,0,1,100,512,611,1.22e-42,185,100
+"367","OTU_81","gi|397788279|gb|JX101654.1|","Ovis ammon hodgsoni","Eukaryota",100,100,0,1,100,512,611,1.22e-42,185,100
+"368","OTU_81","gi|2468613824|gb|OQ509395.1|","Ovis ammon karelini","Eukaryota",100,100,0,1,100,512,611,1.22e-42,185,100
+"369","OTU_81","gi|2468639834|gb|OQ513282.1|","Ovis ammon polii","Eukaryota",100,100,0,1,100,512,611,1.22e-42,185,100
+"370","OTU_81","gi|2468639908|gb|OQ513286.1|","Ovis ammon severtzovi","Eukaryota",100,100,0,1,100,512,611,1.22e-42,185,100
+"371","OTU_81","gi|1825549437|gb|MT253543.1|","Ovis aries","Eukaryota",100,100,0,1,100,30,129,1.22e-42,185,100
+"372","OTU_81","gi|1382870178|gb|MH094035.1|","Ovis canadensis","Eukaryota",100,100,0,1,100,512,611,1.22e-42,185,100
+"373","OTU_81","gi|1488177203|ref|NC_039431.1|","Ovis nivicola lydekkeri","Eukaryota",100,100,0,1,100,512,611,1.22e-42,185,100
+"374","OTU_81","gi|1898893157|gb|MT768232.1|","Ovis orientalis","Eukaryota",100,100,0,1,100,512,611,1.22e-42,185,100
+"375","OTU_81","gi|751361720|gb|KF312238.2|","Ovis orientalis ophion","Eukaryota",100,100,0,1,100,512,611,1.22e-42,185,100
+"376","OTU_81","gi|745999539|ref|NC_026064.1|","Ovis vignei","Eukaryota",100,100,0,1,100,512,611,1.22e-42,185,100
+"377","OTU_81","gi|2468639926|gb|OQ513287.1|","Ovis vignei arkal","Eukaryota",100,100,0,1,100,512,611,1.22e-42,185,100
+"378","OTU_81","gi|2497507286|gb|OQ534874.1|","Ovis vignei blanfordi","Eukaryota",100,100,0,1,100,512,611,1.22e-42,185,100
+"379","OTU_81","gi|2468639967|gb|OQ513289.1|","Ovis vignei punjabiensis","Eukaryota",100,100,0,1,100,512,611,1.22e-42,185,100
+"380","OTU_84","gi|2627910082|ref|NC_084244.1|","Cichla temensis","Eukaryota",100,99,0,1,99,514,612,4.31e-42,183,99
+"381","OTU_87","gi|2634424560|gb|CP139520.1|","Homo sapiens","Eukaryota",100,100,0,1,100,8361335,8361434,1.22e-42,185,100
+"382","OTU_90","gi|15638907|gb|AC024248.7|","Homo sapiens","Eukaryota",100,100,0,1,100,61492,61591,1.22e-42,185,100
+"383","OTU_911","gi|2626223970|emb|OY804260.1|","Meiosimyza decipiens","Eukaryota",99.038,104,1,1,104,31460031,31459928,3.58e-43,187,101
+"384","OTU_92","gi|21326095|gb|AF502359.1|","Macaca mulatta","Eukaryota",99,100,1,1,100,3,102,5.66e-41,180,97
+"385","OTU_926","gi|12007472|gb|AF323513.1|AF323513","Mediodactylus russowii","Eukaryota",86.022,93,12,8,100,10,101,1.63e-16,99,53
+"386","OTU_926","gi|12007471|gb|AF323512.1|AF323512","Tenuidactylus elongatus","Eukaryota",86.022,93,12,8,100,10,101,1.63e-16,99,53
+"387","OTU_93","gi|1961335566|gb|MW524740.1|","Homo sapiens","Eukaryota",100,100,0,1,100,23,122,1.22e-42,185,100
+"388","OTU_980","gi|2634424561|gb|CP139521.1|","Homo sapiens","Eukaryota",97,100,3,1,100,8231169,8231268,1.22e-37,169,91
+"389","OTU_980","gi|94537070|gb|AC182469.3|","Pan troglodytes","Eukaryota",97,100,3,1,100,114677,114776,1.22e-37,169,91
