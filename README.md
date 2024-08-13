@@ -105,3 +105,11 @@ Output files: 12S_OTU_matrix2.csv; 16S_OTU_matrix2.csv
 OTU "replicates" (i.e. same species/genus/family) were combined and final matrices of individual beetles (rows) and assigned taxonomy (columns) were produced for 12S and 16S primer sets (code: 6_Data_Cleaning.R).
 
 Output files: 12S_OTU_final_matrix.csv; 16S_OTU_final_matrix.csv
+
+## References
+
+Andrews, S., Krueger, F., Segonds-Pichon, A., Biggins, L., Krueger, C. & Wingett, S. (2012). FastQC: a quality control tool for high throughput sequence data.
+
+Buchner, D., Macher, T.-H. & Leese, F. (2022). APSCALE: advanced pipeline for simple yet comprehensive analyses of DNA metabarcoding data. Bioinformatics, 38, 4817–4819. https://doi.org/10.1093/bioinformatics/btac588.
+
+Drake, L.E., Cuff, J.P., Young, R.E., Marchbank, A., Chadwick, E.A. & Symondson, W.O.C. (2022). An assessment of minimum sequence copy thresholds for identifying and reducing the prevalence of artefacts in dietary metabarcoding data. Methods Ecol Evol, 13, 694–710. https://doi.org/10.1111/2041-210X.13780.
