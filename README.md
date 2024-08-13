@@ -94,7 +94,7 @@ Output files: [12S_OTU_all_blast_scores.csv](https://github.com/teelabntu/dungbe
 
 ## 6. Data cleaning
 
-OTUs that matched the same species were combined. Genus- or family-level classification was assigned to OTUs that had multiple species or genera matches with equal numbers of BLAST matches (see 12S_OTU_final_assignment.csv & 16S_OTU_final_assignment.csv). Read counts for each individual beetle were summed across its sample replicates (code: 6_Data_Cleaning.R)
+OTUs that matched the same species were combined. Genus- or family-level classification was assigned to OTUs that had multiple species or genera matches with equal numbers of BLAST matches (see [12S_OTU_final_assignment.csv](https://github.com/teelabntu/dungbeetle-vertebrate_networks_DNA_metabarcoding/blob/master/6_Data_Cleaning/12S_OTU_final_assignment.csv) & [16S_OTU_final_assignment.csv](https://github.com/teelabntu/dungbeetle-vertebrate_networks_DNA_metabarcoding/blob/master/6_Data_Cleaning/16S_OTU_final_assignment.csv)). Read counts for each individual beetle were summed across its sample replicates (code: [6_Data_Cleaning.R](https://github.com/teelabntu/dungbeetle-vertebrate_networks_DNA_metabarcoding/blob/master/6_Data_Cleaning/6_Data_Cleaning.R))
 
 Output files: [12S_OTU_matrix.csv](https://github.com/teelabntu/dungbeetle-vertebrate_networks_DNA_metabarcoding/blob/master/6_Data_Cleaning/12S_OTU_matrix.csv); [16S_OTU_matrix.csv](https://github.com/teelabntu/dungbeetle-vertebrate_networks_DNA_metabarcoding/blob/master/6_Data_Cleaning/16S_OTU_matrix.csv)
 
@@ -102,7 +102,7 @@ Output files were processed in Microsoft Excel to remove unmatched OTUs.
 
 Output files: [12S_OTU_matrix2.csv](https://github.com/teelabntu/dungbeetle-vertebrate_networks_DNA_metabarcoding/blob/master/6_Data_Cleaning/12S_OTU_matrix2.csv); [16S_OTU_matrix2.csv](https://github.com/teelabntu/dungbeetle-vertebrate_networks_DNA_metabarcoding/blob/master/6_Data_Cleaning/16S_OTU_matrix2.csv)
 
-OTU "replicates" (i.e. same species/genus/family) were combined and final matrices of individual beetles (rows) and assigned taxonomy (columns) were produced for 12S and 16S primer sets (code: 6_Data_Cleaning.R).
+OTU "replicates" (i.e. same species/genus/family) were combined and final matrices of individual beetles (rows) and assigned taxonomy (columns) were produced for 12S and 16S primer sets (code: [6_Data_Cleaning.R](https://github.com/teelabntu/dungbeetle-vertebrate_networks_DNA_metabarcoding/blob/master/6_Data_Cleaning/6_Data_Cleaning.R)).
 
 Output files: [12S_OTU_final_matrix.csv](https://github.com/teelabntu/dungbeetle-vertebrate_networks_DNA_metabarcoding/blob/master/6_Data_Cleaning/12S_OTU_final_matrix.csv); [16S_OTU_final_matrix.csv](https://github.com/teelabntu/dungbeetle-vertebrate_networks_DNA_metabarcoding/blob/master/6_Data_Cleaning/16S_OTU_final_matrix.csv)
 
