@@ -8,7 +8,7 @@ Reads were obtained by:
 
 2.  Next-generation sequencing on Illumina Novaseq platform using 150 bp paired end reads aiming for two Gb of data for each pooled product (performed by Axil Scientific Pte Ltd)
 
-Raw reads from Illumina Novaseq sequencing are deposited on NCBI at Bioproject number PRJNA885274.
+Raw reads from Illumina Novaseq sequencing are deposited on NCBI at Bioproject number PRJNA1147414 (<https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA1147414>).
 
 # Workflow:
 
@@ -19,6 +19,8 @@ Quality of raw reads was assessed using FastQC (Andrews et al. 2012).
 ## 2. Demultiplexing
 
 Raw reads (FASTQ files) of each PCR pool were demultiplexed using the demultiplexer Python script (<https://github.com/DominikBuchner/demultiplexer>).
+
+Demultiplex template and primers are provided in the folder "2_Demultiplex".
 
 ## 3. APSCALE
 
