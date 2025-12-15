@@ -46,31 +46,23 @@ Output files: [12S_OTU_raw.csv](https://github.com/teelabntu/dungbeetle-vertebra
 
 A series of post-bioinformatic filtering steps was applied to remove contamination and low-frequency artefacts (following Drake et al. 2022; code: [4_Post-Bioinformatics_filtering.R](https://github.com/teelabntu/dungbeetle-vertebrate_networks_DNA_metabarcoding/blob/master/4_Post-APSCALE/4_Post-Bioinformatics_filtering.R)):
 
--   Remove contamination detected by negative controls and blanks
+-   Remove low-frequency artefacts
 
-    Within each OTU, the highest read count across the negative controls and blanks was determined and any read counts that were lower than this value were removed
+    Removed any read counts that were less than 10 reads.
 
 -   Remove contamination within each PCR replicate
 
     Removed any OTUs within the replicate with read counts that were less than 1% of the total read count for each replicate
 
--   Remove low-frequency artefacts
+-   Remove contamination detected in blanks and negatives
 
-    Removed any read counts that were less than 10 reads.
+    Removed any sample reads that were detected in negative controls and blanks except for reads that were detected in at least five sample replicates
 
 Output files: [12S_OTU_filtered.csv](https://github.com/teelabntu/dungbeetle-vertebrate_networks_DNA_metabarcoding/blob/master/4_Post-APSCALE/12S_OTU_filtered.csv); [16S_OTU_filtered.csv](https://github.com/teelabntu/dungbeetle-vertebrate_networks_DNA_metabarcoding/blob/master/4_Post-APSCALE/16S_OTU_filtered.csv)
 
-Output files were processed in Microsoft Excel to remove OTUs that had 0 total reads post-filtering.
-
-Outfile files: [12S_OTU_filtered2.csv](https://github.com/teelabntu/dungbeetle-vertebrate_networks_DNA_metabarcoding/blob/master/4_Post-APSCALE/12S_OTU_filtered2.csv); [16S_OTU_filtered2.csv](https://github.com/teelabntu/dungbeetle-vertebrate_networks_DNA_metabarcoding/blob/master/4_Post-APSCALE/16S_OTU_filtered2.csv)
-
 ## 5. Taxonomy Assignment using BLAST and filtering of BLAST results
 
-*blastn* (using cmd line) was used to match all remaining OTUs against the NCBI *nt*-database.\
-\
-Example code:
-
-`blastn -db nt -query 12S_OTU_seq_filtered_p1.fasta -out 12S_ESV_seq_filtered_results_p1.csv -outfmt "10 qseqid sseqid sscinames sskingdoms pident length mismatch qstart qend sstart send evalue bitscore score" -remote`
+*blastn* (using Web BLAST) was used to match all remaining OTUs against the NCBI *core_nt* database.
 
 Output files: [12S_OTU_seq_filtered_results_all.csv](https://github.com/teelabntu/dungbeetle-vertebrate_networks_DNA_metabarcoding/blob/master/5_BLAST/12S_OTU_seq_filtered_results_all.csv); [16S_OTU_seq_filtered_results.csv](https://github.com/teelabntu/dungbeetle-vertebrate_networks_DNA_metabarcoding/blob/master/5_BLAST/16S_OTU_seq_filtered_results.csv)
 
