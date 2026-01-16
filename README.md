@@ -54,9 +54,9 @@ A series of post-bioinformatic filtering steps was applied to remove contaminati
 
     Removed any OTUs within the replicate with read counts that were less than 1% of the total read count for each replicate
 
--   Remove contamination detected in blanks and negatives
+-   Remove contamination detected in blanks and negatives but avoid eliminating true detections
 
-    Removed any sample reads that were detected in negative controls and blanks except for reads that were detected in at least five sample replicates
+    Retained OTUs that were detected in at least five sample replicates.
 
 Output files: [12S_OTU_filtered.csv](https://github.com/teelabntu/dungbeetle-vertebrate_networks_DNA_metabarcoding/blob/master/4_Post-APSCALE/12S_OTU_filtered.csv); [16S_OTU_filtered.csv](https://github.com/teelabntu/dungbeetle-vertebrate_networks_DNA_metabarcoding/blob/master/4_Post-APSCALE/16S_OTU_filtered.csv)
 
