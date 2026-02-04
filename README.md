@@ -54,7 +54,7 @@ A series of post-bioinformatic filtering steps was applied to remove contaminati
 
 -   Remove contamination detected in blanks and negatives but avoid eliminating true detections
 
-    Retain OTUs that were detected in at least five sample replicates.
+    Retained OTUs that were detected in at least five sample replicates.
 
 ## 5. Taxonomy Assignment using BLAST and filtering of BLAST results
 
