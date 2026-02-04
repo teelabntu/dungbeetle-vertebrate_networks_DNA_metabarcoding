@@ -7,22 +7,21 @@ library(tidyverse)
 library(reshape2)
 
 # Read data ----
-blast_16S_OTU <- read.csv("5_BLAST/16S_OTU_seq_filtered_results.csv",
+blast_16S_OTU <- read.csv("5_BLAST/16S_OTU_HitTable.csv",
                   header = T)
-blast_12S_OTU <- read.csv("5_BLAST/12S_OTU_seq_filtered_results_all.csv",
+blast_12S_OTU <- read.csv("5_BLAST/12S_OTU_ALL_HitTable.csv",
                           header = T)
+glimpse(blast_16S_OTU)
+glimpse(blast_12S_OTU)
 
-# Filter BLAST results ----
-## Criteria 1. Taxa = Phylum Chordata (select Eukaryota records first)
-## Criteria 2. Query length at least 80 (i.e. > 79)
-## Criteria 3. E-value less than 1e-10
+## Criteria 1. Query length at least 80 (i.e. > 79)
+## Criteria 2. E-value less than 1e-10
 ## Retain matches with highest percentage identity (pident), longest query length and lowest E-value
 
-## Filter 16S OTU BLAST results ----
-## Obtain BLAST scores for all assigned taxonomies in each OTU
-filtered_16S_blast_scores <- blast_16S_OTU %>%
-  # Filter criterias 1 to 3
-  filter(sskingdoms == "Eukaryota" & evalue <1e-10 & length > 79) %>%
+## For each OTU, filter based on criteria 1 & 2 & retain highest pident, long ----
+filtered_16S_OTU_filtered <- blast_16S_OTU %>%
+  # Filter criteria 1 & 2
+  filter(evalue <1e-10 & length > 79) %>%
   group_by(qseid) %>%
   # Select lowest e-value
   filter(evalue == min(evalue)) %>%
@@ -32,34 +31,13 @@ filtered_16S_blast_scores <- blast_16S_OTU %>%
   group_by(qseid) %>%
   # Select highest percentage identity
   filter(pident == max(pident)) %>%
-  group_by(qseid, sscinames) %>%
-  # Select unique OTUs and assigned taxonomy
-  slice(1)
-
-## For each OTU, identify the assigned taxonomy with highest number of BLAST matches
-filtered_16S_OTU_tophit <- blast_16S_OTU %>%
-  # Filter criterias 1 to 3
-  filter(sskingdoms == "Eukaryota" & evalue <1e-10 & length > 79) %>%
-  group_by(qseid) %>%
-  # Select lowest e-value
-  filter(evalue == min(evalue)) %>%
-  group_by(qseid) %>%
-  # Select longest query length
-  filter(length == max(length)) %>%
-  group_by(qseid) %>%
-  # Select highest percentage identity
-  group_by(qseid, sscinames) %>%
+  group_by(qseid, sseqid) %>%
   # Tally number of BLAST matches for each assigned taxonomy in each OTU
-  tally() %>%
-  group_by(qseid) %>%
-  # Select taxonomy with highest number of BLAST matches
-  filter(n == max(n))
+  tally()
 
-## Filter 12S OTU BLAST results ----
-## Obtain BLAST scores for all assigned taxonomies in each OTU
-filtered_12S_blast_scores <- blast_12S_OTU %>%
-  # Filter criterias 1 to 3
-  filter(sskingdoms == "Eukaryota" & evalue <1e-10 & length > 79) %>%
+filtered_12S_OTU_filtered <- blast_12S_OTU %>%
+  # Filter criteria 1 & 2
+  filter(evalue <1e-10 & length > 79) %>%
   group_by(qseid) %>%
   # Select lowest e-value
   filter(evalue == min(evalue)) %>%
@@ -69,14 +47,14 @@ filtered_12S_blast_scores <- blast_12S_OTU %>%
   group_by(qseid) %>%
   # Select highest percentage identity
   filter(pident == max(pident)) %>%
-  group_by(qseid, sscinames) %>%
-  # Select unique OTUs and assigned taxonomy
-  slice(1)
+  group_by(qseid, sseqid) %>%
+  # Tally number of BLAST matches for each assigned taxonomy in each OTU
+  tally()
 
-## For each OTU, identify the assigned taxonomy with highest number of BLAST matches
-filtered_12S_OTU_tophit <- blast_12S_OTU %>%
-  # Filter criterias 1 to 3
-  filter(sskingdoms == "Eukaryota" & evalue <1e-10 & length > 79) %>%
+## Obtain Query length,	Percentage identity (%),	e-value &	bitscore
+stats_16S <- blast_16S_OTU %>%
+  # Filter criteria 1 & 2
+  filter(evalue <1e-10 & length > 79) %>%
   group_by(qseid) %>%
   # Select lowest e-value
   filter(evalue == min(evalue)) %>%
@@ -85,21 +63,37 @@ filtered_12S_OTU_tophit <- blast_12S_OTU %>%
   filter(length == max(length)) %>%
   group_by(qseid) %>%
   # Select highest percentage identity
-  group_by(qseid, sscinames) %>%
-  # Tally number of BLAST matches for each assigned taxonomy in each OTU
-  tally() %>%
+  filter(pident == max(pident)) %>%
   group_by(qseid) %>%
-  # Select taxonomy with highest number of BLAST matches
-  filter(n == max(n))
+  slice(1)
+
+stats_12S <- blast_12S_OTU %>%
+  # Filter criteria 1 & 2
+  filter(evalue <1e-10 & length > 79) %>%
+  group_by(qseid) %>%
+  # Select lowest e-value
+  filter(evalue == min(evalue)) %>%
+  group_by(qseid) %>%
+  # Select longest query length
+  filter(length == max(length)) %>%
+  group_by(qseid) %>%
+  # Select highest percentage identity
+  filter(pident == max(pident)) %>%
+  group_by(qseid) %>%
+  slice(1)
+
+## Retrieve csv of unique OTUs for taxonomy retrieval
+unique_16S_OTU <- unique(filtered_16S_OTU_tophit$sseqid)
+unique_12S_OTU <- unique(filtered_12S_OTU_tophit$sseqid)
 
 # Save filtered results ----
-write.csv(filtered_16S_blast_scores,
-          "5_BLAST/16S_OTU_all_blast_scores.csv")
 write.csv(filtered_16S_OTU_tophit,
-          "5_BLAST/16S_OTU_assigned_taxonomy_tophit.csv")
-
-write.csv(filtered_12S_blast_scores,
-          "5_BLAST/12S_OTU_all_blast_scores.csv")
+          "5_BLAST/16S_OTU_HitTable_filtered.csv")
 write.csv(filtered_12S_OTU_tophit,
-          "5_BLAST/12S_OTU_assigned_taxonomy_tophit.csv")
+          "5_BLAST/12S_OTU_HitTable_filtered.csv")
 
+# Save sseqid as text to retrieve scientific and common names via entrez
+writeLines(unique_16S_OTU,
+           "5_BLAST/16S_OTU_unique.txt")
+writeLines(unique_12S_OTU,
+           "5_BLAST/12S_OTU_unique.txt")
