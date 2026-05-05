@@ -25,7 +25,7 @@ samples_12S_OTU <- read.csv("6_Data_Cleaning/12S_OTU_filtered_v2.csv",
 ## Process 16S Reads
 combined_replicates_16S <- samples_16S_OTU %>%
   group_by(ID) %>%
-  summarise_each(funs(sum))
+  summarise(across(everything(), sum))
 
 combined_replicates_16S_t <-
   combined_replicates_16S %>% 
@@ -42,12 +42,12 @@ combined_assigned_16S <-
   na.omit() %>%
   select(!ID) %>%
   group_by(qseid_new) %>%
-  summarise_each(funs(sum))
+  summarise(across(everything(), sum))
 
 ## Process 12S Reads
 combined_replicates_12S <- samples_12S_OTU %>%
   group_by(ID) %>%
-  summarise_each(funs(sum))
+  summarise(across(everything(), sum))
 
 combined_replicates_12S_t <-
   combined_replicates_12S %>% 
@@ -64,7 +64,7 @@ combined_assigned_12S <-
   na.omit() %>%
   select(!ID) %>%
   group_by(qseid_new) %>%
-  summarise_each(funs(sum))
+  summarise(across(everything(), sum))
 
 # Save matrices ----
 write.csv(combined_assigned_16S,
